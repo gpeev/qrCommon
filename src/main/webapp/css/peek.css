@@ -1,0 +1,68 @@
+ol.float li, ol.float li a, ul.float li, ul.float li a {
+    display: inline;
+    float: left
+}
+
+.social-19px-sprite, #social-menu li.twitter a, #social-menu li a[href*="twitter"], #social-menu li.facebook a, #social-menu li a[href*="facebook"], #social-menu li.googleplus a, #social-menu li a[href*="google"], #social-menu li.linkedin a, #social-menu li a[href*="linkedin"], #social-menu li.feed a, #social-menu li a[href*="feed"], #social-menu li.youtube a, #social-menu li a[href*="youtube"], #social-menu li.slideshare a, #social-menu li a[href*="slideshare"] {
+    background: url('http://monetate.com/wp-content/themes/monetate-2012/images/social-19px-se140c5acc7.png') no-repeat
+}
+
+#social-menu {
+    display: inline;
+    float: left;
+    height: 19px;
+    margin-left: 16px
+}
+
+#social-menu li {
+    margin-left: 5px
+}
+
+#social-menu li a {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 33);
+    opacity: 0.33;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    height: 19px;
+    position: relative;
+    width: 19px
+}
+
+#social-menu li a:hover {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 100);
+    opacity: 1
+}
+
+#social-menu li.twitter a, #social-menu li a[href*="twitter"] {
+    background-position: 0 -114px
+}
+
+#social-menu li.facebook a, #social-menu li a[href*="facebook"] {
+    background-position: 0 -95px
+}
+
+#social-menu li.googleplus a, #social-menu li a[href*="google"] {
+    background-position: 0 -57px
+}
+
+#social-menu li.linkedin a, #social-menu li a[href*="linkedin"] {
+    background-position: 0 -76px
+}
+
+#social-menu li.feed a, #social-menu li a[href*="feed"] {
+    background-position: 0 -38px
+}
+
+#social-menu li.youtube a, #social-menu li a[href*="youtube"] {
+    background-position: 0 0
+}
+
+#social-menu li.slideshare a, #social-menu li a[href*="slideshare"] {
+    background-position: 0 -19px
+}

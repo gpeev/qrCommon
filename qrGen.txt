@@ -1,0 +1,109 @@
+formValues[businessScanPage]=null
+formValues[chooseCodeTypeSocialPage]=null
+formValues[codeTypePage][codeTypePage-section1][codeType]=text
+formValues[facebookCheckInPage]=null
+formValues[facebookLikePage]=null
+formValues[foursquareCheckInPage]=null
+formValues[personalScanPage]=null
+formValues[signInOrSignUp]=null
+formValues[textPage][textPage-section1][text]=v cbcvbbcvc
+formValues[twitterFollowPage]=null
+formValues[websitePage]=null
+formValues[wiFiPage]=null
+
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeBadgeType]=null
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeBlockColor]=60666D
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeBlockCornerRadius]=0
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeBlockCurveLength]=.5
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeBlockCurveSkew]=0
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeBlockCurveStrength]=1
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeBlockPadding]=0
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeBlockShape]=square
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeBlockStroke]=0
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeBorderColor]=7C7F84
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeBorder][]=true
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeCaption][]=true
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeEdgeColor]=EAEBEC
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeFooterText]=download free app at get.scan.me
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeGroupBlockCorners][]=true
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeHeaderText]=
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeLogo][]=true
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeScannableId]=
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeShortReference]=
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeStyle]=
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeUserToken]=wuXc3R1ZuZlLV28tMG1V4vjj37o3MU3G
+formValues[customizeCodePage][customizeCodePage-section1][title]=v cbcvbbcvc
+
+
+
+
+
+
+--------------
+
+formValues[businessScanPage] = null
+formValues[foursquareCheckInPage] = null
+formValues[chooseCodeTypeSocialPage] = null
+
+
+formValues[wiFiPage] = null
+
+
+formValues[personalScanPage][personalScanPage-section1][personalScanPageSocialButtonLinkedIn] = null
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeBlockCurveStrength] = 1
+formValues[personalScanPage][personalScanPage-section1][personalScanPageSocialButtonFoursquare] = null
+formValues[personalScanPage][personalScanPage-section1][personalScanPageSocialButtonTwitter] = null
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeEdgeColor] = EAEBEC
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeBlockPadding] = 0
+formValues[customizeCodePage][customizeCodePage-section1][title] = Gotce Peev
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeCaption][] = true
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeBlockShape] = square
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeFooterText] = download free app at get.scan.me
+formValues[personalScanPage][personalScanPage-section1][personalScanPageBio] = this is my bio
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeShortReference] =
+formValues[personalScanPage][personalScanPage-section1][personalScanPagePictureOriginalUuid] =
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeBlockCurveSkew] = 0
+formValues[personalScanPage][personalScanPage-section1][personalScanPageSocialButtonFlickr] = null
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeLogo][] = true
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeBadgeType] = null
+formValues[personalScanPage][personalScanPage-section1][personalScanPageSocialButtonYouTube] = null
+formValues[personalScanPage][personalScanPage-section1][personalScanPageEmail] = g@peev.com
+formValues[facebookCheckInPage] = null
+formValues[personalScanPage][personalScanPage-section1][personalScanPageWebsite] = http://www.peev.com
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeBlockColor] = 60666D
+formValues[textPage] = null
+formValues[personalScanPage][personalScanPage-section1][personalScanPageSocialButtonTumblr] = null
+formValues[personalScanPage][personalScanPage-section1][personalScanPageProfilePictureCropCoordinates] =
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeBorder][] = true
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeUserToken] = wuXc3R1ZuZlLV28tMG1V4vjj37o3MU3G
+formValues[personalScanPage][personalScanPage-section1][personalScanPageSocialButtonInstagram] = null
+formValues[personalScanPage][personalScanPage-section1][personalScanPageProfilePictureUuid] =
+formValues[personalScanPage][personalScanPage-section1][personalScanPageBlurredProfilePictureUrl] =
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeBorderColor] = 7C7F84
+formValues[personalScanPage][personalScanPage-section1][personalScanPageSocialButtonDribbble] = null
+formValues[personalScanPage][personalScanPage-section1][personalScanPageSocialButtonGooglePlus] = null
+formValues[signInOrSignUp] = null
+formValues[personalScanPage][personalScanPage-section1][personalScanPageSocialButtonVimeo] = null
+formValues[personalScanPage][personalScanPage-section1][personalScanPageName] = Gotce Peev
+formValues[personalScanPage][personalScanPage-section1][personalScanPageBackground] = softGrain
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeBlockCornerRadius] = 0
+formValues[personalScanPage][personalScanPage-section1][personalScanPageSocialButtonFacebook] = null
+formValues[twitterFollowPage] = null
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeGroupBlockCorners][] = true
+formValues[personalScanPage][personalScanPage-section1][personalScanPageSocialButtonYelp] = null
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeScannableId] =
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeHeaderText] =
+formValues[facebookLikePage] = null
+formValues[personalScanPage][personalScanPage-section1][personalScanPageSocialButtonPinterest] = null
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeStyle] =
+formValues[codeTypePage][codeTypePage-section1][codeType] = personalScanPage
+formValues[personalScanPage][personalScanPage-section1][personalScanPageSocialButtonAngelList] = null
+formValues[personalScanPage][personalScanPage-section1][personalScanPagePhonePrimary] = 267-259-6160
+formValues[personalScanPage][personalScanPage-section1][personalScanPageProfilePicture] = gravatar
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeBlockCurveLength] = .5
+formValues[personalScanPage][personalScanPage-section1][personalScanPageSocialButtonGithub] = null
+formValues[personalScanPage][personalScanPage-section1][personalScanPageProfilePictureUrl] =
+formValues[customizeCodePage][customizeCodePage-section1][customizeCodeBlockStroke] = 0
+formValues[personalScanPage][personalScanPage-section1][personalScanPagePhoneMobile] = 267-259-6161
+formValues[websitePage] = null
+formValues[personalScanPage][personalScanPage-section1][personalScanPageProfilePictureFile] = null

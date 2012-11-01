@@ -1,0 +1,16 @@
+span.prettyspan
+{
+border-top: solid 1px red;
+border-bottom: solid 1px red;
+border-left: solid 2px red;
+border-right: solid 2px red;
+background-color: black;
+padding-left: 10px;
+padding-right: 10px;
+}
+p span.prettyspan
+{
+color: gold;
+text-shadow: 3px 3px 3px white;
+font-weight: bold;
+}

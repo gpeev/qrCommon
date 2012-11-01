@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:mvc="http://www.springframework.org/schema/mvc"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
+        http://www.springframework.org/schema/context 
+        http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+
+    <context:annotation-config />
+    <context:component-scan base-package="com.djstat.controller" />
+
+    <mvc:annotation-driven />
+
+    <mvc:interceptors>
+        <bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor" />
+    </mvc:interceptors>
+
+    <mvc:resources mapping="/assets/**" location="/assets/" />
+    <mvc:resources mapping="/favicon.ico" location="/favicon.ico" />
+    <mvc:resources mapping="/css/**" location="/css/" />
+    <mvc:resources mapping="/js/**" location="/js/" />
+    <mvc:resources mapping="/images/**" location="/images/" />
+
+    <mvc:view-controller path="/" view-name="index" />
+
+    <mvc:view-controller path="/privacy" view-name="privacy" />
+    <mvc:view-controller path="/tou" view-name="tou" />
+    <mvc:view-controller path="/support" view-name="support" />
+
+    <mvc:view-controller path="/myqrs" view-name="myqrs/index" />
+    <mvc:view-controller path="/myqrs/type" view-name="myqrs/type" />
+    <!--mvc:view-controller path="/myqrs/vCardCreate" view-name="myqrs/createVCard" /-->
+    <mvc:view-controller path="/myqrs/listingCreate" view-name="myqrs/createListing" />
+    <mvc:view-controller path="/myqrs/render" view-name="myqrs/render" />
+
+    <mvc:view-controller path="/dashboard" view-name="dashboard" />
+    <mvc:view-controller path="/peeks" view-name="peeks/index" />
+    <mvc:view-controller path="/profile" view-name="profile/index" />
+
+    <mvc:view-controller path="/login" view-name="login" />
+    <mvc:view-controller path="/error" view-name="error" />
+    <mvc:view-controller path="/errors/403" view-name="errors/403" />
+    <mvc:view-controller path="/errors/404" view-name="errors/404" />
+    <mvc:view-controller path="/errors/500" view-name="errors/500" />
+    <mvc:view-controller path="/helloWorld" view-name="index" />
+    <mvc:view-controller path="/register/success" view-name="createSuccess" />
+
+    <bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+        <property name="defaultErrorView" value="error" />
+        <property name="warnLogCategory" value="com.djstat" />
+    </bean>
+
+    <bean id="localeResolver" class="org.springframework.web.servlet.i18n.CookieLocaleResolver">
+        <property name="cookieName" value="USER_LOCALE" />
+        <property name="cookieMaxAge" value="1209600" />
+    </bean>
+
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/view/" />
+        <property name="suffix" value=".jsp" />
+    </bean>
+
+    <!--bean class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
+        <property name="mediaTypes">
+            <map>
+                <entry key="atom" value="application/atom+xml"/>
+                <entry key="html" value="text/html"/>
+                <entry key="json" value="application/json"/>
+            </map>
+        </property>
+        <property name="viewResolvers">
+            <list>
+                <bean class="org.springframework.web.servlet.view.BeanNameViewResolver"/>
+                <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+                    <property name="prefix" value="/WEB-INF/view/"/>
+                    <property name="suffix" value=".jsp"/>
+                </bean>
+            </list>
+        </property>
+        <property name="defaultViews">
+            <list>
+                <bean class="org.springframework.web.servlet.view.json.MappingJacksonJsonView" />
+            </list>
+        </property>
+    </bean>
+    <bean id="content" class="com.springsource.samples.rest.SampleContentAtomView"/-->
+
+
+
+
+
+
+
+
+</beans>

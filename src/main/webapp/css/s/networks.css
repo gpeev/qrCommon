@@ -1,0 +1,116 @@
+/* About Page Network Rollovers */
+.displace {
+	position: absolute;
+	left: -5000px;
+}
+.networks a {background-image: url(/images/s/network-sprite.png?v=2);}
+a.iconAppstore {
+	display: block;
+	width: 54px;
+	height: 53px;
+	text-decoration: none;
+        background-position: 54px 637px;
+}
+a.iconAppstore:hover {
+	background-position: 0 636px;
+}
+a.iconAndroid {
+	display: block;
+	width: 54px;
+	height: 53px;
+	text-decoration: none;
+        background-position: 54px 901px;
+}
+a.iconAndroid:hover {
+	background-position: 0 901px;
+}
+a.iconWindows {
+	display: block;
+	width: 54px;
+	height: 53px;
+	text-decoration: none;
+        background-position: 54px 1219px;
+}
+a.iconWindows:hover {
+	background-position: 0 1219px;
+}
+a.iconTwitter {
+	display: block;
+	width: 54px;
+	height: 53px;
+	text-decoration: none;
+	background-position: 54px 317px;
+}
+a.iconTwitter:hover {
+	background-position: 0 318px;
+}
+a.iconFacebook {
+	display: block;
+	width: 54px;
+	height: 53px;
+	text-decoration: none;
+	background-position: 54px 742px;
+}
+a.iconFacebook:hover {
+	background-position: 0 742px;
+}
+a.iconInstagram {
+	display: block;
+	width: 54px;
+	height: 53px;
+	text-decoration: none;
+	background-position: 54px 1006px;
+}
+a.iconInstagram:hover {
+	background-position: 0 1007px;
+}
+a.iconFoursquare {
+	display: block;
+	width: 54px;
+	height: 53px;
+	text-decoration: none;
+	background-position: 54px 1590px;
+}
+a.iconFoursquare:hover {
+	background-position: 0 1590px;
+}
+a.iconDribbble {
+	display: block;
+	width: 54px;
+	height: 53px;
+	text-decoration: none;
+	background-position: 54px 2279px;
+}
+a.iconDribbble:hover {
+	background-position: 0 2279px;
+}
+a.iconYouTube {
+	display: block;
+	width: 54px;
+	height: 53px;
+	text-decoration: none;
+	background-position: 54px 2067px;
+}
+a.iconYouTube:hover {
+	background-position: 0 2067px;
+}
+a.iconVimeo {
+	display: block;
+	width: 54px;
+	height: 53px;
+	text-decoration: none;
+	background-position: 54px 370px;
+}
+a.iconVimeo:hover {
+	background-position: 0 371px;
+}
+a.iconAngelList {
+	display: block;
+	width: 54px;
+	height: 53px;
+	text-decoration: none;
+	background-position: 54px 530px;
+}
+a.iconAngelList:hover {
+	background-position: 0 530px;
+}

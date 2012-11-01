@@ -1,0 +1,287 @@
+.socialButtonChoice, .ui-btn.socialIcon {
+    position: relative;
+    background-image: url(/images/s/social.png);    
+    
+}
+
+
+#businessScanPageSocialButtons-wrapper input:checked~label ,#personalScanPageSocialButtons-wrapper input:checked~label {
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.25)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+    background-image: -o-linear-gradient(top, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0) 100%); /* IE10+ */
+    background-image: linear-gradient(top, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0) 100%); /* W3C */
+}
+
+#businessScanPageSocialButtons-wrapper input:checked~label:before, #personalScanPageSocialButtons-wrapper input:checked~label:before {
+    position: absolute;
+    right: -7px;
+    top: -7px;
+    content: " ";
+    width: 30px;
+    height: 30px;
+    background: transparent url(/images/s/socialbutton-checkmark.png) no-repeat left top;
+}
+.socialButtonChoice span {
+    background-size: 345px auto !important;
+    -webkit-background-size: 345px auto !important;
+}
+.twitterBackground {
+    background-color: #33ccff;
+}
+.twitterBackground span {
+    background: url(/images/s/twitter.png) 50% 50% no-repeat;
+    background-size: 58px auto;
+    -webkit-background-size: 58px auto;
+}
+.previewLayer .socialButton.twitterBackground span , .socialButtonChoice.twitterBackground span {
+    background: url(/images/s/social-buttons-sprite.png) 0px -23px no-repeat;
+    width: 58px ;
+    height: 13px ;
+    margin: 14px auto;
+}
+.previewLayer .socialButton.twitterBackground span{ margin: 10px auto; }
+
+.pinterestBackground {
+    background-color: #ce4858; /* Old browsers */
+}
+.pinterestBackground span {
+    background: url(/images/s/pinterest.png) 50% 50% no-repeat;
+    background-size: 57px auto;
+    -webkit-background-size: 57px auto;
+}
+.previewLayer .socialButton.pinterestBackground span , .socialButtonChoice.pinterestBackground span {
+    background: url(/images/s/social-buttons-sprite.png) 138px 0px;
+    width: 57px;
+    height: 15px;
+    margin: 14px auto;
+}
+.previewLayer .socialButton.pinterestBackground span{ margin: 10px auto; }
+
+.googlePlusBackground {
+    background-color: #44413e; /* Old browsers */
+}
+.googlePlusBackground span {
+    background: url(/images/s/google-plus.png) 50% 50% no-repeat;
+    background-size: 44px auto;
+    -webkit-background-size: 44px auto;
+}
+.previewLayer .socialButton.googlePlusBackground span, .socialButtonChoice.googlePlusBackground span {
+    background: url(/images/s/social-buttons-sprite.png) 69px 148px;
+    width: 45px;
+    height: 28px;
+    margin: 7px auto;
+}
+.previewLayer .socialButton.googlePlusBackground span{ margin: 3px auto; }
+
+.facebookBackground {
+    background-color: #266dad; /* Old browsers */
+}
+.facebookBackground span {
+    background: url(/images/s/facebook.png) 50% 48% no-repeat;
+    background-size: 60px auto;
+    -webkit-background-size: 60px auto;
+}
+.previewLayer .socialButton.facebookBackground span, .socialButtonChoice.facebookBackground span {
+    background: url(/images/s/social-buttons-sprite.png) 276px -45px;
+    width: 60px;
+    height: 12px;
+    margin:15px auto;
+}
+
+.vimeoBackground {
+    background-color: #446c82; /* Old browsers */
+}
+.vimeoBackground span {
+    background: url(/images/s/vimeo.png) 50% 48% no-repeat;
+    background-size: 50px auto;
+    -webkit-background-size: 50px auto;
+}
+.previewLayer .socialButton.vimeoBackground span, .socialButtonChoice.vimeoBackground span {
+    background: url(/images/s/social-buttons-sprite.png) 276px -22px;
+    width: 50px;
+    height: 15px;
+    margin:14px auto;
+}
+.previewLayer .socialButton.vimeoBackground span{ margin: 10px auto; }
+
+.angelListBackground {
+    background-color: #ececec; /* Old browsers */
+
+}
+.angelListBackground span {
+    background: url(/images/s/angellist.png) 50% 50% no-repeat;
+    background-size: 75px auto;
+    -webkit-background-size: 75px auto;
+}
+.previewLayer .socialButton.angelListBackground span, .socialButtonChoice.angelListBackground span {
+    background: url(/images/s/social-buttons-sprite.png) 73px -22px;
+    width: 73px;
+    height: 15px;
+    margin:14px auto;
+}
+.previewLayer .socialButton.angelListBackground span{ margin: 10px auto; }
+
+.flickrBackground {
+    background-color: #1f80df; /* Old browsers */
+}
+.flickrBackground span {
+    background: url(/images/s/flickr.png) 50% 50% no-repeat;
+    background-size: 40px auto;
+    -webkit-background-size: 40px auto;
+}
+.previewLayer .socialButton.flickrBackground span, .socialButtonChoice.flickrBackground span {
+    background: url(/images/s/social-buttons-sprite.png) 207px -45px;
+    width: 46px;
+    height: 14px;
+    margin:15px auto;
+}
+.previewLayer .socialButton.flickrBackground span{ margin: 10px auto; }
+
+.yelpBackground {
+    background-color: #d74949; /* Old browsers */
+}
+.yelpBackground span {
+    background: url(/images/s/yelp.png) 50% 46% no-repeat;
+    background-size: 44px auto;
+    -webkit-background-size: 44px auto;
+}
+.previewLayer .socialButton.yelpBackground span, .socialButtonChoice.yelpBackground span {
+    background: url(/images/s/social-buttons-sprite.png) 207px -23px;
+    width: 46px;
+    height: 22px;
+    margin:11px auto;
+}
+.previewLayer .socialButton.yelpBackground span{ margin: 7px auto; }
+
+.youTubeBackground {
+    background-color: #dddddd; /* Old browsers */
+}
+.youTubeBackground span {
+    background: url(/images/s/youtube.png) 50% 50% no-repeat;
+    background-size: 46px auto;
+    -webkit-background-size: 46px auto;
+}
+.previewLayer .socialButton.youTubeBackground span, .socialButtonChoice.youTubeBackground span {
+    background: url(/images/s/social-buttons-sprite.png) 138px -22px;
+    width: 51px;
+    height: 22px;
+    margin:11px auto;
+}
+.previewLayer .socialButton.youTubeBackground span{ margin: 7px auto; }
+
+.linkedInBackground {
+    background-color: #26a6ca; /* Old browsers */
+}
+.linkedInBackground span {
+    background: url(/images/s/linkedin.png) 50% 50% no-repeat;
+    background-size: 55px auto;
+    -webkit-background-size: 55px auto;
+}
+.previewLayer .socialButton.linkedInBackground span, .socialButtonChoice.linkedInBackground span {
+    background: url(/images/s/social-buttons-sprite.png) 207px 0px;
+    width: 56px;
+    height: 15px;
+    margin:14px auto;
+}
+.previewLayer .socialButton.linkedInBackground span{ margin: 10px auto; }
+
+.foursquareBackground {
+    background-color: #357db4; /* Old browsers */
+}
+.foursquareBackground span {
+    background: url(/images/s/foursquare.png) 50% 50% no-repeat;
+    background-size: 64px auto;
+    -webkit-background-size: 64px auto;
+}
+.previewLayer .socialButton.foursquareBackground span, .socialButtonChoice.foursquareBackground span {
+    background: url(/images/s/social-buttons-sprite.png) 137px 52px;
+    width: 56px;
+    height: 15px;
+    margin:14px auto;
+}
+.previewLayer .socialButton.foursquareBackground span{ margin: 10px auto; }
+
+.dribbbleBackground {
+    background-color: #dd73a8; /* Old browsers */
+}
+.dribbbleBackground span {
+    background: url(/images/s/dribbble.png) 50% 48% no-repeat;
+    background-size: 52px auto;
+    -webkit-background-size: 52px auto;
+}
+.previewLayer .socialButton.dribbbleBackground span, .socialButtonChoice.dribbbleBackground span {
+    background: url(/images/s/social-buttons-sprite.png) 0px 52px;
+    width: 52px;
+    height: 13px;
+    margin:15px auto;
+}
+.previewLayer .socialButton.dribbbleBackground span{ margin: 11px auto; }
+
+.tumblrBackground {
+    background-color: #5b6a7b; /* Old browsers */
+}
+.tumblrBackground span {
+    background: url(/images/s/tumblr.png) 50% 46% no-repeat;
+    background-size: 60px auto;
+    -webkit-background-size: 60px auto;
+}
+.previewLayer .socialButton.tumblrBackground span, .socialButtonChoice.tumblrBackground span {
+    background: url(/images/s/social-buttons-sprite.png) 74px 0px;
+    width: 74px;
+    height: 16px;
+    margin:13px auto;
+}
+.previewLayer .socialButton.tumblrBackground span{ margin: 9px auto; }
+
+.instagramBackground {
+    background-color: #3d3930; /* Old browsers */
+}
+.instagramBackground span {
+    background: url(/images/s/instagram.png) 50% 58% no-repeat;
+    background-size: 58px auto;
+    -webkit-background-size: 58px auto;
+}
+
+.previewLayer .socialButton.instagramBackground span, .socialButtonChoice.instagramBackground span {
+    background: url(/images/s/social-buttons-sprite.png) -72px 0px;
+    width: 57px;
+    height: 21px;
+    margin: 13px auto;
+}
+.previewLayer .socialButton.instagramBackground span{ margin: 9px auto; }
+
+.githubBackground {
+    background-color: #E2e2e2; /* Old browsers */
+}
+.githubBackground span {
+    background: url(/images/s/github.png) 50% 50% no-repeat;
+    background-size: 42px auto;
+    -webkit-background-size: 42px auto;
+}
+
+.previewLayer .socialButton.githubBackground span, .socialButtonChoice.githubBackground span {
+    background: url(/images/s/social-buttons-sprite.png) 0px 28px;
+    width: 42px;
+    height: 21px;
+    margin: 11px auto;
+}
+.previewLayer .socialButton.githubBackground span{ margin: 7px auto; }
+
+.kloutBackground {
+    background-color: #E44600; /* Old browsers */
+}
+.kloutBackground span {
+    background: url(/images/s/klout.png) 50% 50% no-repeat;
+    background-size: 60px auto;
+    -webkit-background-size: 60px auto;
+}
+
+.previewLayer .socialButton.kloutBackground span, .socialButtonChoice.kloutBackground span {
+    background: url(/images/s/social-buttons-sprite.png) -68px 25px;
+    width: 53px;
+    height: 12px;
+    margin: 15px auto;
+}
+.previewLayer .socialButton.kloutBackground span{ margin: 11px auto; }

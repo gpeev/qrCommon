@@ -1,0 +1,1263 @@
+.bodyBox #qrCodeGenerator p {
+    margin: 0;
+}
+
+#qrCodeGenerator {
+    width: 580px;
+}
+
+#qrCodeGenerator .formWrapperContainer,
+#qrCodeGenerator #personalScanPage .formSection,
+#qrCodeGenerator #businessScanPage .formSection {
+    overflow: visible;
+}
+
+#qrCodeGenerator .formPageNavigatorTop {
+    width: 880px;
+    padding: 0 0 0 0;
+    border: none;
+    /* background: url(/images/s/page-navigator-background-bak.gif) 42% 20% repeat-x;   */
+    background: url(/images/s/page-navigator-background.gif) 42% 20% no-repeat;
+    margin-left: 10px;
+    height: 60px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+#qrCodeGenerator .formPageNavigatorTop .formPageNavigatorLink {
+    margin-right: 33.25%;
+    color: #ced0d2;
+}
+
+#qrCodeGenerator .formPageNavigatorTop .formPageNavigatorLinkActive {
+    color: #4b545e;
+}
+
+#qrCodeGenerator .formPageNavigatorTop .formPageNavigatorLink:last-child {
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+}
+
+#qrCodeGenerator .formPageNavigatorTop .formPageNavigatorLink .formNavigatorLinkPrefix {
+    width: 26px;
+    height: 26px;
+    border-radius: 51px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.33) inset;
+    background: none repeat scroll 0 0 #CFD0D2;
+    color: #8A8B8D;
+    display: block;
+    margin: 4px auto 4px auto;
+    text-shadow: 0 1px 1px #FFFFFF;
+    font-weight: bold;
+}
+
+#qrCodeGenerator .formPageNavigatorTop .formPageNavigatorLinkActive .formNavigatorLinkPrefix {
+    background: none repeat scroll 0 0 #2F3B47;
+    border: 4px solid #DBDFE2;
+    color: #FFFFFF;
+    text-shadow: 0 1px 1px #000000;
+    margin: 0px auto 0px auto;
+}
+
+#qrCodeGenerator .formPageNavigatorTop .formPageNavigatorLinkLocked .formNavigatorLinkPrefix {
+}
+
+#qrCodeGenerator h2 {
+    font-size: 1.5em;
+}
+
+#qrCodeGenerator .formControl {
+    margin-left: 10px;
+}
+
+#qrCodeGenerator .formControl li button {
+    min-width: 100px;
+}
+
+#qrCodeGenerator .formControl .previousLi {
+    margin-right: .5em;
+}
+
+.previewContainer {
+    position: absolute;
+    right: 30px;
+    top: 106px;
+}
+
+.previewContainer h3 {
+    text-align: center;
+}
+
+.previewContainer .preview {
+    height: 599px;
+    width: 304px;
+    position: relative;
+}
+
+.previewContainer .preview.iPhone {
+    background: url(/images/s/preview-iphone.png) no-repeat;
+}
+
+.previewContainer .previewContent {
+    position: absolute;
+    top: 122px;
+    left: 25px;
+    width: 257px;
+    height: 333px;
+}
+
+.previewText {
+    line-height: 24px;
+    font-weight: bold;
+    margin: 1em auto 1em auto !important;
+    width: 100px;
+    padding: .1em 0;
+    font-size: 13px !important;
+    text-align: center;
+    color: #FFF !important;
+    text-shadow: 0 1px 1px #000;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .33);
+    border-radius: 2px;
+    background: #8c9197; /* Old browsers */
+    background: -moz-linear-gradient(top, #8c9197 6%, #565d67 10%, #2c3039 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(6%, #8c9197), color-stop(10%, #565d67), color-stop(100%, #2c3039)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #8c9197 6%, #565d67 10%, #2c3039 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #8c9197 6%, #565d67 10%, #2c3039 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #8c9197 6%, #565d67 10%, #2c3039 100%); /* IE10+ */
+    background: linear-gradient(top, #8c9197 6%, #565d67 10%, #2c3039 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#8c9197', endColorstr = '#2c3039', GradientType = 0); /* IE6-9 */
+}
+
+.previewContainer .previewContent .previewLayer {
+    position: absolute;
+    width: 257px;
+    height: 369px;
+}
+
+.previewContainer .previewContent .previewLayer.businessScanPage {
+    background: url(/images/s/business-scan-page-preview.jpg) no-repeat;
+}
+
+.previewContainer .previewContent .previewLayer.businessScanPage.edit {
+    background: url(/images/s/scan-page-preview-background.png) no-repeat;
+}
+
+.previewLayer.businessScanPage .content .frame {
+    position: absolute;
+    top: 35px;
+    width: 257px;
+    height: 274px;
+    background: none;
+    z-index: 100;
+}
+
+.previewLayer.businessScanPage .content .addContactIcon span {
+    background: url(/images/s/add-contact.png) 0 -1px no-repeat;
+    padding-left: 15px;
+    background-size: 13px auto;
+}
+
+.previewLayer.businessScanPage .content .sendContactIcon span:first-child {
+    background: url(/images/s/send-contact.png) 0 -1px no-repeat;
+    padding-left: 15px;
+    background-size: 13px auto;
+}
+
+.previewLayer.businessScanPage .content .phoneIcon span {
+    background: url(/images/s/phone.png) 0 -1px no-repeat;
+    padding-left: 15px;
+    background-size: 13px auto;
+}
+
+.previewLayer.businessScanPage .content .textIcon span {
+    background: url(/images/s/text.png) 0 -1px no-repeat;
+    padding-left: 15px;
+    background-size: 13px auto;
+}
+
+.previewLayer.businessScanPage .content .emailIcon span {
+    background: url(/images/s/email.png) 0 -1px no-repeat;
+    padding-left: 15px;
+    background-size: 13px auto;
+}
+
+.previewLayer.businessScanPage .content .socialIcon span {
+    text-indent: -999px;
+    display: inline-block;
+}
+
+.previewLayer.businessScanPage .content .customButton1.button {
+    margin-top: 97px;
+}
+
+.previewLayer.businessScanPage .content .customButton2.button {
+    margin-bottom: 9px;
+}
+
+.previewLayer.businessScanPage .content .socialButton.button {
+    margin-top: 3px;
+}
+
+.previewLayer.businessScanPage .content .button {
+    display: block;
+    border: 1px solid rgba(0, 0, 0, .33);
+    width: 90%;
+    height: 30px;
+    z-index: 2;
+    border-radius: .75em;
+    line-height: 36px;
+    height: 34px;
+    text-align: center;
+    font-size: 11px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #223d74;
+    margin-bottom: 5px;
+}
+
+.previewContainer .previewContent .previewLayer.chooseCodeTypeSocial {
+    background: url(/images/s/facebook-check-in-preview.jpg) no-repeat;
+}
+
+.previewContainer .previewContent .previewLayer.facebookCheckIn {
+    background: url(/images/s/facebook-check-in-preview.jpg) no-repeat;
+}
+
+.previewContainer .previewContent .previewLayer.facebookCheckIn.edit {
+    background: url(/images/s/facebook-check-in-preview-background.jpg) no-repeat;
+}
+
+.previewContainer .previewContent .previewLayer.facebookCheckIn .facebookCheckInPreviewLabel {
+    position: absolute;
+    text-align: center;
+    top: 146px;
+    width: 231px;
+    color: #fff;
+    font-size: 13px;
+    padding: 0 1em;
+}
+
+.previewContainer .previewContent .previewLayer.facebookCheckIn .facebookCheckInPreviewPageLink {
+    position: absolute;
+    text-align: center;
+    top: 260px;
+    width: 257px;
+    font-size: 12px;
+    color: #FFF;
+    opacity: .5;
+}
+
+.previewContainer .previewContent .previewLayer.facebookLike {
+    background: url(/images/s/facebook-like-preview.jpg) no-repeat;
+}
+
+.previewContainer .previewContent .previewLayer.facebookLike.edit {
+    background: url(/images/s/facebook-like-preview-background.jpg) no-repeat;
+}
+
+.previewContainer .previewContent .previewLayer.facebookLike .facebookLikePreviewLabel {
+    position: absolute;
+    text-align: center;
+    top: 146px;
+    width: 231px;
+    color: #fff;
+    font-size: 13px;
+    padding: 0 1em;
+}
+
+.previewContainer .previewContent .previewLayer.facebookLike .facebookLikePreviewPageLink {
+    position: absolute;
+    text-align: center;
+    top: 251px;
+    width: 257px;
+    font-size: 12px;
+    color: #FFF;
+    opacity: .5;
+}
+
+.previewContainer .previewContent .previewLayer.twitterFollow {
+    background: url(/images/s/twitter-follow-preview.jpg) no-repeat;
+}
+
+.previewContainer .previewContent .previewLayer.twitterFollow.edit {
+    background: url(/images/s/twitter-follow-preview-background.jpg) no-repeat;
+}
+
+.previewContainer .previewContent .previewLayer.twitterFollow .twitterFollowPreviewLabel {
+    position: absolute;
+    text-align: center;
+    top: 146px;
+    width: 257px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.previewContainer .previewContent .previewLayer.twitterFollow .twitterFollowPreviewPageLink {
+    position: absolute;
+    text-align: center;
+    top: 260px;
+    width: 257px;
+    font-size: 12px;
+    color: #FFF;
+    opacity: .5;
+}
+
+.previewContainer .previewContent .previewLayer.foursquareCheckIn {
+    background: url(/images/s/foursquare-check-in-preview.jpg) no-repeat;
+}
+
+.previewContainer .previewContent .previewLayer.foursquareCheckIn.edit {
+    background: url(/images/s/foursquare-check-in-preview-background.jpg) no-repeat;
+}
+
+.previewContainer .previewContent .previewLayer.foursquareCheckIn .foursquareCheckInPreviewLabel {
+    position: absolute;
+    text-align: center;
+    top: 146px;
+    width: 231px;
+    color: #fff;
+    font-size: 13px;
+    padding: 0 1em;
+}
+
+.previewContainer .previewContent .previewLayer.foursquareCheckIn .foursquareCheckInPreviewPageLink {
+    position: absolute;
+    text-align: center;
+    top: 260px;
+    width: 257px;
+    font-size: 12px;
+    color: #FFF;
+    opacity: .5;
+}
+
+.previewContainer .previewContent .previewLayer.personalScanPage {
+    background: url(/images/s/personal-scan-page-preview.jpg) no-repeat;
+}
+
+.previewContainer .previewContent .previewLayer.personalScanPage.edit {
+    background: url(/images/s/scan-page-preview-background.png) no-repeat;
+}
+
+.previewLayer.personalScanPage .content .frame, .previewLayer.businessScanPage .content .frame {
+    position: absolute;
+    top: 35px;
+    width: 257px;
+    height: 274px;
+    background: none;
+    z-index: 100;
+}
+
+.previewLayer.personalScanPage .content .background, .previewLayer.businessScanPage .content .background {
+    position: absolute;
+    top: 35px;
+    width: 257px;
+    height: 274px;
+    display: block;
+    background: url(/images/s/soft-grain.jpg);
+    z-index: 99;
+}
+
+.previewLayer.personalScanPage .content .profilePicture, .previewLayer.businessScanPage .content .profilePicture {
+    background: url(/images/s/scan-page-picture-default-portrait.png?cssFile) no-repeat;
+    border-radius: .5em;
+    -webkit-border-radius: .5em;
+    border: 1px solid rgba(60, 70, 80, .5);
+    height: 76px;
+    left: 8px;
+    position: absolute;
+    top: 7px;
+    width: 76px;
+    background-size: 76px auto;
+    overflow: hidden;
+    box-shadow: 0px 1px 1px rgba(255, 254, 254, .66);
+}
+
+.previewLayer.personalScanPage .content .title, .previewLayer.businessScanPage .content .title {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 5px;
+    width: 167px;
+    padding: 0 45px;
+    text-shadow: 0px -1px 0px #000;
+}
+
+.previewLayer.personalScanPage .content .profile, .previewLayer.businessScanPage .content .profile {
+    height: 80px;
+    left: 93px;
+    position: absolute;
+    top: 11px;
+    width: 148px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .33);
+}
+
+.previewLayer.personalScanPage .content .name, .previewLayer.businessScanPage .content .name {
+    margin: 4px 0 0 0;
+    color: #2b3034;
+    margin-left: 98px;
+    border-bottom: 1px solid rgba(0, 0, 0, .33);
+    box-shadow: 0px 1px 0 rgba(255, 255, 255, .45);
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 14px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 14px;
+}
+
+.previewLayer.personalScanPage .content .bio, .previewLayer.businessScanPage .content .bio {
+    color: #2b3034;
+    font-size: 11px;
+    line-height: 11px;
+    margin: 5px 0 0 0 !important;
+}
+
+.previewLayer.personalScanPage .content .website, .previewLayer.businessScanPage .content .website {
+    color: #000;
+    font-size: 11px;
+    line-height: 11px;
+    margin: 5px 0 0 0 !important;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.previewLayer.personalScanPage .content .website a, .previewLayer.businessScanPage .content .website a {
+    color: #0353a6;
+    text-decoration: none;
+}
+
+.previewLayer.personalScanPage .content .addContactIcon span {
+}
+
+.previewLayer.personalScanPage .content .sendContactIcon span:first-child {
+}
+
+.previewLayer.personalScanPage .content .phoneIcon span {
+}
+
+.previewLayer.personalScanPage .content .textIcon span {
+}
+
+.previewLayer.personalScanPage .content .emailIcon span {
+}
+
+.previewLayer.personalScanPage .content .socialIcon span {
+    text-indent: -999px;
+    display: inline-block;
+    background-size: 351px auto;
+}
+
+.previewLayer.personalScanPage .content .addContactIcon.button {
+    margin-top: 97px;
+}
+
+.previewLayer.personalScanPage .content .sendContactIcon.button {
+    margin-bottom: 9px;
+}
+
+.previewLayer.personalScanPage .content .socialButton.button, .previewLayer.businessScanPage .content .socialButton.button {
+    background-image: url(/images/s/social.png);
+    box-shadow: 0px 1px 1px rgba(255, 254, 254, .66);
+    margin-top: 3px;
+}
+
+.previewLayer .content .socialButton span {
+    display: inline-block;
+    background-size: 320px auto !important;
+}
+
+.previewLayer .content .socialButton.facebookBackground span {
+    background-position: 260px -41px;
+    margin: 12px auto;
+    width: 58px;
+}
+
+.previewLayer .content .socialButton.twitterBackground span {
+    width: 56px;
+    height: 9px;
+    margin: 14px auto;
+    background-position: 3px -23px;
+}
+
+.previewLayer .content .socialButton.pinterestBackground span {
+    width: 52px;
+    background-position: 126px 0px;
+}
+
+.previewLayer .content .socialButton.googlePlusBackground span {
+    background-position: 66px 138px;
+}
+
+.previewLayer .content .socialButton.vimeoBackground span {
+    background-position: 256px -21px;
+    width: 47px;
+}
+
+.previewLayer .content .socialButton.angelListBackground span {
+    background-position: 68px -21px;
+    width: 68px;
+    margin: 13px auto;
+    height: 13px
+}
+
+.previewLayer .content .socialButton.flickrBackground span {
+    background-position: 192px -42px;
+    width: 43px;
+}
+
+.previewLayer .content .socialButton.yelpBackground span {
+    background-position: 192px -21px;
+    width: 43px;
+    height: 20px;
+}
+
+.previewLayer .content .socialButton.youTubeBackground span {
+    background-position: 128px -21px;
+    width: 47px;
+    height: 18px;
+    margin: 9px auto;
+}
+
+.previewLayer .content .socialButton.linkedInBackground span {
+    background-position: 192px 0px;
+    width: 51px;
+    height: 14px;
+    margin: 11px auto;
+}
+
+.previewLayer .content .socialButton.foursquareBackground span {
+    background-position: 127px 46px;
+    width: 52px;
+    height: 12px;
+    margin: 12px auto;
+}
+
+.previewLayer .content .socialButton.dribbbleBackground span {
+    background-position: 0px 47px;
+    width: 49px;
+    height: 11px;
+    margin: 13px auto;
+}
+
+.previewLayer .content .socialButton.tumblrBackground span {
+    background-position: 58px 0px;
+    width: 59px;
+    height: 13px;
+    margin: 11px auto;
+    background-size: 276px auto;
+
+}
+
+.previewLayer .content .socialButton.instagramBackground span {
+    background-position: -64px 0px;
+    width: 56px;
+    height: 19px;
+    margin: 10px auto;
+}
+
+.previewLayer .content .socialButton.githubBackground span {
+    background-position: 0px 23px;
+    width: 39px;
+    height: 17px;
+    margin: 11px auto;
+}
+
+.previewLayer.personalScanPage .content .button, .previewLayer.businessScanPage .content .button {
+    display: block;
+    border: 1px solid rgba(0, 0, 0, .33);
+    width: 90%;
+    height: 30px;
+    z-index: 2;
+    border-radius: .75em;
+    line-height: 36px;
+    height: 34px;
+    text-align: center;
+    font-size: 11px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #223d74;
+    margin-bottom: 5px;
+}
+
+.previewLayer.personalScanPage .content .button.white, .previewLayer.businessScanPage .content .button.white {
+    border: 1px solid rgba(60, 70, 80, .5); /*{d-bup-border}*/;
+    background: url(/images/s/button.png);
+    color: #375c8c /*{d-bup-color}*/;
+    text-shadow: 0 1px 0 white;
+    box-shadow: 0px 1px 1px rgba(255, 254, 254, .66);
+}
+
+.previewLayer.personalScanPage .content .button span, .previewLayer.businessScanPage .content .button span {
+    font-weight: bold;
+}
+
+.previewLayer.personalScanPage .content .button.full, .previewLayer.businessScanPage .content .button.full {
+    width: 239px;
+    margin-left: 8px;
+    clear: both;
+}
+
+.previewLayer.personalScanPage .content .button.half, .previewLayer.businessScanPage .content .button.half {
+    width: 115px;
+    margin-left: 9px;
+}
+
+.previewLayer.personalScanPage .content .button.half.last, .previewLayer.businessScanPage .content .button.half.last {
+
+}
+
+.previewLayer.personalScanPage .content .button.third, .previewLayer.businessScanPage .content .button.third {
+    width: 74px;
+}
+
+.previewLayer.personalScanPage .content .button.left, .previewLayer.businessScanPage .content .button.left {
+    clear: left;
+    float: left;
+    margin-left: 8px;
+}
+
+.previewLayer.personalScanPage .content .button.center, .previewLayer.businessScanPage .content .button.center {
+    clear: none;
+    float: left;
+    margin-left: 6px;
+}
+
+.previewLayer.personalScanPage .content .button.right, .previewLayer.businessScanPage .content .button.right {
+    clear: none;
+    float: left;
+    margin-left: 6px;
+}
+
+.previewContainer .previewContent .previewLayer.website {
+    background: url(/images/s/website-preview.jpg) no-repeat;
+}
+
+.previewContainer .previewContent .previewLayer.website.edit {
+    background: url(/images/s/website-preview-background.jpg) no-repeat;
+}
+
+.previewContainer .previewContent .previewLayer.website.edit .website {
+    color: #000000;
+    font-size: 12px;
+    margin-left: 12px;
+    margin-top: 18px;
+    width: 185px;
+    height: 18px;
+    overflow: hidden;
+}
+
+.previewContainer .previewContent .previewLayer.text {
+    background: url(/images/s/text-preview.jpg) no-repeat;
+}
+
+.previewContainer .previewContent .previewLayer.text.edit {
+    background: url(/images/s/text-preview-background.jpg) no-repeat;
+}
+
+.previewContainer .previewContent .previewLayer.text.edit .text {
+    top: 35px;
+    position: absolute;
+    width: 241px;
+    height: 257px;
+    padding: 8px;
+    overflow: hidden;
+}
+
+.previewContainer .previewContent .previewLayer.text.edit .text p:first-child {
+    margin-top: 6px !important;
+}
+
+.previewContainer .previewContent .previewLayer.text.edit .text p {
+    line-height: 16px;
+    font-size: 12px;
+    text-shadow: 0 1px 0 #000000;
+    color: #FFF;
+    margin-bottom: 12px !important;
+    margin-left: 4px !important;
+    margin-right: 8px !important;
+}
+
+/** ----------------------------- Start*/
+.previewContainer .previewContent .previewLayer.realEstateSaleListing {
+    background: url(/images/s/text-preview.jpg) no-repeat;
+}
+
+.previewContainer .previewContent .previewLayer.realEstateSaleListing.edit {
+    background: url(/images/s/text-preview-background.jpg) no-repeat;
+}
+
+.previewContainer .previewContent .previewLayer.realEstateSaleListing.edit .realEstateSaleListing {
+    top: 35px;
+    position: absolute;
+    width: 241px;
+    height: 257px;
+    padding: 8px;
+    overflow: hidden;
+}
+
+.previewContainer .previewContent .previewLayer.realEstateSaleListing.edit .text p:first-child {
+    margin-top: 6px !important;
+}
+
+.previewContainer .previewContent .previewLayer.realEstateSaleListing.edit .realEstateSaleListing p {
+    line-height: 16px;
+    font-size: 12px;
+    text-shadow: 0 1px 0 #000000;
+    color: #FFF;
+    margin-bottom: 12px !important;
+    margin-left: 4px !important;
+    margin-right: 8px !important;
+}
+/** ----------------------------- End*/
+
+
+.previewContainer .previewContent .previewLayer.wiFi {
+    background: url(/images/s/wi-fi-preview.jpg) no-repeat;
+}
+
+.previewContainer .previewContent .previewLayer.wiFi.edit {
+    background: url(/images/s/wi-fi-preview-background.jpg) no-repeat;
+}
+
+.previewContainer .previewContent .previewLayer.wiFi.edit .wiFiSsid {
+    color: #FFFFFF;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 12.5px;
+    height: 20px;
+    margin: 151px auto 0;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 240px;
+}
+
+.previewContainer .previewContent .previewLayer.wiFi.edit .wiFiPassword {
+    color: #FFFFFF;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 12.5px;
+    height: 20px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 240px;
+}
+
+.form .formComponentMultipleChoice.codeType label {
+    margin-right: 0;
+}
+
+#codeType-wrapper input, #codeTypeSocial-wrapper input {
+    float: left;
+    clear: left;
+    display: none !important;
+}
+
+.form .formComponentMultipleChoice.codeType label.choiceLabel {
+    border: 1px solid #C7C7C7;
+    border-radius: 6px;
+    display: block !important;
+    float: left;
+    height: 66px;
+    margin: 0 0 1em;
+    overflow: auto;
+    padding: 0.7em 0.75em .75em .7em;
+    width: 530px;
+    box-shadow: inset 0 -2px 2px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: inset 0 -2px 2px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 -2px 2px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.form .formComponentMultipleChoice.codeType label.choiceLabel .icon {
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin: 17px 19px 17px 11px;
+    background-image: url(/images/s/type-icon-sprite.png);
+}
+
+.form .formComponentMultipleChoice.codeType label.choiceLabel.wiFi .icon {
+    background-image: url(/images/s/icon-wi-fi.png);
+}
+
+.form .formComponentMultipleChoice#codeTypeSocial-wrapper label.choiceLabel .icon {
+    float: left;
+    width: 37px;
+    height: 36px;
+    margin: 16px 17px 14px 9px;
+    background-image: url(/images/s/type-icon-sprite.png);
+}
+
+label.choiceLabel.personalScanPage .icon {
+
+}
+
+label.choiceLabel.businessScanPage .icon {
+    background-position: 0 -32px;
+
+}
+
+label.choiceLabel.chooseCodeTypeSocial .icon {
+    background-position: 0 -64px;
+}
+
+label.choiceLabel.website .icon {
+    background-position: 0 64px;
+}
+
+label.choiceLabel.text .icon {
+    background-position: 0 32px;
+}
+
+label.choiceLabel.twitter .icon {
+    background-position: 37px -36px;
+}
+
+label.choiceLabel.facebook .icon {
+    background-position: 37px 0px;
+}
+
+label.choiceLabel.foursquare .icon {
+    background-position: 37px -72px;
+}
+
+label.choiceLabel.active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.45), inset 0 -1px 0px rgba(0, 0, 0, 0.07), inset 0 2px 0px rgba(255, 255, 255, 0.8);
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.45), inset 0 -1px 0px rgba(0, 0, 0, 0.07), inset 0 2px 0px rgba(255, 255, 255, 0.8);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.45), inset 0 -1px 0px rgba(0, 0, 0, 0.07), inset 0 2px 0px rgba(255, 255, 255, 0.8);
+    border-color: rgba(0, 0, 0, 0.15);
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #efefef;
+    background: -moz-linear-gradient(top, #f4f4f4 0%, #e7e7e7 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f4f4f4), color-stop(100%, #e7e7e7)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f4f4f4 0%, #e7e7e7 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f4f4f4 0%, #e7e7e7 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f4f4f4 0%, #e7e7e7 100%); /* IE10+ */
+    background: linear-gradient(top, #f4f4f4 0%, #e7e7e7 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#fafafa', endColorstr = '#e7e7e7', GradientType = 0); /* IE6-9 */
+
+}
+
+label.choiceLabel h3 {
+    margin: 0;
+    color: #39424b;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0 1px 1px #FFF;
+}
+
+label.choiceLabel p {
+    margin: 0;
+    color: #7c848f;
+    font-size: 14px;
+    line-height: 1.1em;
+    text-shadow: 0 1px 1px #fff;
+}
+
+label.choiceLabel.active p {
+    color: #7b838e;
+}
+
+textarea#text {
+    height: 280px;
+    width: 257px;
+}
+
+#website {
+    width: 400px;
+}
+
+#personalScanPage .formComponent .defaultValue, #businessScanPage .formComponent .defaultValue {
+    color: #AAA;
+}
+
+#personalScanPage .formComponent, #businessScanPage .formComponent {
+    width: 550px;
+}
+
+#personalScanPage .formComponentValidationFailed, #businessScanPage .formComponentValidationFailed {
+    overflow: visible !important;
+
+}
+
+#personalScanPage .formComponentValidationFailed .formComponentLabel, #businessScanPage .formComponentValidationFailed .formComponentLabel {
+    margin-left: -18px;
+}
+
+#personalScanPageProfilePicture-label, #businessScanPageProfilePicture-label,
+#personalScanPageBackground-label, #businessScanPageBackground-label,
+#personalScanPageProfilePictureFile-label, #businessScanPageProfilePictureFile-label,
+#personalScanPageName-label, #businessScanPageName-label,
+#personalScanPageWebsite-label, #businessScanPageWebsite-label,
+#personalScanPageEmail-label, #businessScanPageEmail-label,
+#personalScanPagePhonePrimary-label, #businessScanPagePhonePrimary-label,
+#personalScanPagePhoneMobile-label, #businessScanPagePhoneMobile-label,
+#personalScanPageBio-label, #businessScanPageBio-label,
+#personalScanPageSocialButtonTwitterUsername-label, #businessScanPageSocialButtonTwitterUsername-label,
+#personalScanPageSocialButtonPinterestUsername-label, #businessScanPageSocialButtonPinterestUsername-label,
+#personalScanPageSocialButtonGooglePlusUrl-label, #businessScanPageSocialButtonGooglePlusUrl-label,
+#personalScanPageSocialButtonFacebookUrl-label, #businessScanPageSocialButtonFacebookUrl-label,
+#personalScanPageSocialButtonVimeoUrl-label, #businessScanPageSocialButtonVimeoUrl-label,
+#personalScanPageSocialButtonAngelListUrl-label, #businessScanPageSocialButtonAngelListUrl-label,
+#personalScanPageSocialButtonFlickrUrl-label, #businessScanPageSocialButtonFlickrUrl-label,
+#personalScanPageSocialButtonYelpUrl-label, #businessScanPageSocialButtonYelpUrl-label,
+#personalScanPageSocialButtonYouTubeUrl-label, #businessScanPageSocialButtonYouTubeUrl-label,
+#personalScanPageSocialButtonLinkedInUrl-label, #businessScanPageSocialButtonLinkedInUrl-label,
+#personalScanPageSocialButtonFoursquareUrl-label, #businessScanPageSocialButtonFoursquareUrl-label,
+#personalScanPageSocialButtonDribbbleUsername-label, #businessScanPageSocialButtonDribbbleUsername-label,
+#personalScanPageSocialButtonTumblrUrl-label, #businessScanPageSocialButtonTumblrUrl-label {
+    float: left;
+    width: 160px;
+}
+
+#qrCodeGenerator .formComponentFile {
+    height: 37px;
+    position: relative;
+}
+
+#qrCodeGenerator .formComponentFile .pseudoFile {
+    left: 167px;
+    width: 300px;
+
+}
+
+#qrCodeGenerator .formComponentFile .pseudoFile button {
+    height: 34px;
+}
+
+#qrCodeGenerator .formComponentFile .pseudoFile .pseudoFileAjaxStatus.pseudoFileAjaxStatusUploading {
+    background: url(/images/s/qr-code-preview-loader.gif);
+}
+
+#personalScanPageSocialButtons-wrapper, #businessScanPageSocialButtons-wrapper {
+    margin-bottom: 1em;
+    width: 550px;
+}
+
+#personalScanPageSocialButtons-wrapper input, #businessScanPageSocialButtons-wrapper input {
+    display: none !important;
+}
+
+#personalScanPageProfilePicture, #businessScanPageProfilePicture,
+#personalScanPageName, #businessScanPageName,
+#personalScanPageWebsite, #businessScanPageWebsite,
+#personalScanPageEmail, #businessScanPageEmail,
+#personalScanPagePhonePrimary, #businessScanPagePhonePrimary,
+#personalScanPagePhoneMobile, #businessScanPagePhoneMobile,
+#personalScanPageBio, #businessScanPageBio,
+#personalScanPageSocialButtonTwitterUsername, #businessScanPageSocialButtonTwitterUsername,
+#personalScanPageSocialButtonPinterestUsername, #businessScanPageSocialButtonPinterestUsername,
+#personalScanPageSocialButtonGooglePlusUrl, #businessScanPageSocialButtonGooglePlusUrl,
+#personalScanPageSocialButtonFacebookUrl, #businessScanPageSocialButtonFacebookUrl,
+#personalScanPageSocialButtonVimeoUrl, #businessScanPageSocialButtonVimeoUrl,
+#personalScanPageSocialButtonAngelListUrl, #businessScanPageSocialButtonAngelListUrl,
+#personalScanPageSocialButtonFlickrUrl, #businessScanPageSocialButtonFlickrUrl,
+#personalScanPageSocialButtonYelpUrl, #businessScanPageSocialButtonYelpUrl,
+#personalScanPageSocialButtonYouTubeUrl, #businessScanPageSocialButtonYouTubeUrl,
+#personalScanPageSocialButtonLinkedInUrl, #businessScanPageSocialButtonLinkedInUrl,
+#personalScanPageSocialButtonFoursquareUrl, #businessScanPageSocialButtonFoursquareUrl,
+#personalScanPageSocialButtonDribbbleUsername, #businessScanPageSocialButtonDribbbleUsername,
+#personalScanPageSocialButtonTumblrUrl, #businessScanPageSocialButtonTumblrUrl {
+    float: left;
+    width: 300px;
+}
+
+#businessScanPage .customButtonSection .formComponent {
+    width: 33%;
+    float: left;
+    clear: none;
+}
+
+#businessScanPage .customButtonSection .formComponent.formComponentDropDown {
+    width: 23%;
+}
+
+#businessScanPage .customButtonSection .formComponent select {
+    width: 109%;
+}
+
+#personalScanPageProfilePictureFile, #businessScanPageProfilePictureFile {
+    float: left;
+    width: 313px;
+}
+
+#personalScanPageEmail-description {
+    width: 390px;
+    float: right;
+}
+
+#personalScanPageEmail-description p {
+    font-size: 12px;
+}
+
+#personalScanPageBio, #businessScanPageBio {
+    height: 46px;
+}
+
+.socialButtonChoice {
+    display: block;
+    float: left;
+    height: 42px;
+    width: 96px;
+    border-radius: 6px;
+    margin-top: 12px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.socialButtonChoice span {
+    display: block;
+    height: 42px;
+    width: 96px;
+    text-indent: -999px;
+}
+
+#personalScanPageSocialButtons-wrapper input:checked~label, #businessScanPageSocialButtons-wrapper input:checked~label {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5) inset;
+}
+
+#personalScanPageSocialButtons-wrapper input:checked~label:hover, #businessScanPageSocialButtons-wrapper input:checked~label:hover {
+}
+
+#personalScanPageSocialButtons-wrapper input~label:hover, #businessScanPageSocialButtons-wrapper input~label:hover {
+}
+
+#personalScanPageSocialButtons-wrapper input~label, #businessScanPageSocialButtons-wrapper input~label {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, .33);
+}
+
+#customizeCodePage {
+    position: relative;
+    min-height: 460px;
+}
+
+.customizeCodePreview {
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    width: 300px;
+    height: 452px;
+    background-color: #FFFFFF;
+}
+
+.customizeCodePreview .customizeCodePreviewCode {
+    width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    line-height: 0;
+}
+
+.customizeCodePreview .customizeCodePreviewCodeLoader {
+    background: #FFF url(/images/s/qr-code-preview-loader.gif) center no-repeat;
+    display: none;
+    width: 300px;
+    height: 452px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#customizeCodeBackgroundColor,
+#customizeCodeBlockColor,
+#customizeCodeBlockPadding {
+    width: 120px;
+}
+
+#customizeCodeBlockShape,
+#customizeCodeBlockEffect,
+#customizeCodeBadgeType {
+    width: 134px;
+}
+
+.signInOrSignUpResponse {
+    clear: both;
+    display: none;
+    float: left;
+    background: url(/images/s/exclamation-dot-red.png) no-repeat .5em 50%;
+    padding: .25em .75em .25em 2em;
+    background-color: #FFDFE0;
+    border: 1px solid #EFC2C4;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#customizeCodeBlockColor-description {
+    float: right;
+    margin: 0.3em 0.25em 0;
+}
+
+#customizeCodeBlockColor-description #qrCodeGeneratorColorPicker {
+    width: 24px;
+    height: 24px;
+    background: #000 url(/images/s/colorpicker.png) center no-repeat;
+
+}
+
+.formScrollToNotification {
+    padding-left: 24px;
+    background: url(/images/s/next-page-loader.gif) 0 50% no-repeat;
+}
+
+#title, #customizeCodeHeaderText, #customizeCodeFooterText {
+    width: 228px;
+}
+
+#customizeCodeHeaderText-wrapper {
+    padding-bottom: 0;
+}
+
+.formComponentSubLabel p a {
+    text-decoration: none;
+}
+
+#twitterFollowPage .ajaxLoading {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 0;
+    height: 18px;
+    background: url(/images/s/next-page-loader.gif) 0 50% no-repeat;
+    width: 18px;
+}
+
+#twitterFollowPage .twitterInfo {
+    background: #F9F9F9;
+    border-radius: 6px;
+    border: thin solid rgba(0, 0, 0, .1);
+    padding: 10px;
+    border-image: initial;
+}
+
+#twitterFollowPage .twitterInfo p {
+    text-shadow: 1px 1px 0 white;
+}
+
+#twitterFollowPage .twitterInfo a {
+    text-decoration: none;
+    color: #333;
+}
+
+#twitterFollowPage .twitterInfo a:hover {
+    text-decoration: underline;
+    color: #0084B4;
+}
+
+#facebookCheckInPage #facebookCheckInPlaceName-description {
+    display: inline;
+    margin-left: 15px;
+}
+
+#facebookCheckInPage #facebookCheckInPlaceId-description {
+    display: inline;
+    margin-left: 15px;
+}
+
+#facebookCheckInPage .response {
+    display: inline-block;
+    margin-left: 15px;
+    min-height: 18px;
+    min-width: 18px;
+}
+
+#facebookCheckInPage .ajaxLoading {
+    height: 18px;
+    background: url(/images/s/next-page-loader.gif) 0 50% no-repeat;
+    width: 18px;
+}
+
+#foursquareCheckInPage #foursquareCheckInVenueId-description {
+    display: inline;
+    margin-left: 15px;
+}
+
+#foursquareCheckInPage .mapCanvasWrapper {
+    height: 175px;
+    width: 175px;
+    position: absolute;
+    left: 375px;
+    top: 205px;
+    border: thin solid rgba(0, 0, 0, .33);
+    overflow: hidden;
+}
+
+#foursquareCheckInPage #foursquareMapCanvas {
+    height: 175px;
+    width: 175px;
+    border-radius: 6px;
+}
+
+#foursquareCheckInPage .response {
+    display: inline-block;
+    margin-left: 15px;
+    min-height: 18px;
+    min-width: 18px;
+    color: red;
+}
+
+#foursquareCheckInPage .ajaxLoading {
+    display: inline-block;
+    height: 18px;
+    background: url(/images/s/next-page-loader.gif) 0 50% no-repeat;
+    width: 18px;
+}
+
+#facebookCheckInPage .mapCanvasWrapper {
+    height: 175px;
+    width: 175px;
+    position: absolute;
+    left: 375px;
+    top: 249px;
+    border: thin solid rgba(0, 0, 0, .33);
+    overflow: hidden;
+}
+
+#facebookCheckInPage #facebookMapCanvas {
+    height: 175px;
+    width: 175px;
+    border-radius: 6px;
+}
+
+#facebookCheckInPage .formPageDescription button {
+    position: absolute;
+    left: 375px;
+    top: 435px;
+}
+
+/* tip styling */
+#qrCodeGenerator.form .formTip .tipContent {
+    background: rgba(255, 255, 255, .9);
+    font-size: .8em;
+    padding: 1.1em 1.5em;
+}
+
+#qrCodeGenerator .formTip .tipArrow {
+    width: 15px;
+    height: 23px;
+    background: url(/images/s/tip-arrow-left-white.png) no-repeat;
+    z-index: 999;
+    top: 6px;
+    right: 3px;
+    margin-top: 1px;
+}
+
+#qrCodeGenerator .formTip .tipContent .tipErrorUl {
+
+}
+
+#qrCodeGenerator .formTip .tipContent .tipErrorUl li {
+    color: #EA0000;
+    list-style-type: circle;
+}
