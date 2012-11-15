@@ -16,7 +16,7 @@ public class AppConfig
 	public MongoFactoryBean mongo()
 	{
 		MongoFactoryBean factory = new MongoFactoryBean();
-		factory.setHost("ec2-107-21-219-245.compute-1.amazonaws.com");
+		factory.setHost("ec2-184-73-62-137.compute-1.amazonaws.com");
 		factory.setPort(1080);
 		System.out.println("Setting up mongo:" + factory);
 
