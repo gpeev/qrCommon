@@ -38,6 +38,17 @@
     <mvc:view-controller path="/myqrs/listingCreate" view-name="myqrs/createListing" />
     <mvc:view-controller path="/myqrs/render" view-name="myqrs/render" />
 
+    <mvc:view-controller path="/qr/pickType" view-name="qr/pickType" />
+    <!--mvc:view-controller path="/qr/businessCard" view-name="qr/businessCard" />
+
+    <mvc:view-controller path="/qr/plainText" view-name="qr/plainText" />
+    <mvc:view-controller path="/qr/reListing" view-name="qr/reListing" /-->
+    <mvc:view-controller path="/qr/prepFinal" view-name="qr/prepFinal" />
+
+
+
+
+
     <mvc:view-controller path="/dashboard" view-name="dashboard" />
     <mvc:view-controller path="/peeks" view-name="peeks/index" />
     <mvc:view-controller path="/profile" view-name="profile/index" />

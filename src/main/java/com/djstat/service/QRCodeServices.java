@@ -1,9 +1,14 @@
 package com.djstat.service;
 
 import com.djstat.exception.DuplicateException;
+import com.djstat.form.qr.BusinessCardForm;
 import com.djstat.form.vCard;
 import com.djstat.model.QrArtifact;
+import com.djstat.model.qr.BusinessCard;
+import com.djstat.model.qr.Count;
+import com.djstat.model.qr.QrCommon;
 import com.djstat.model.vCardEntity;
+import com.peev.utils.BaseConverterUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -35,12 +40,13 @@ public class QRCodeServices
 		//data.setCreateDateTime(new Date().getTime());
 
 
-		final Query query = entityManager.createQuery("SELECT u FROM com.djstat.model.QrArtifact u WHERE qrText = :qrText");
+		final Query query = entityManager.createQuery(
+				"SELECT u FROM com.djstat.model.QrArtifact u WHERE qrText = :qrText");
 		query.setParameter("qrText", qText);
 
 		@SuppressWarnings("unchecked")
 		final List results = query.getResultList();
-		if(results != null && !results.isEmpty())
+		if (results != null && !results.isEmpty())
 		{
 			throw new DuplicateException("A duplicate QR Code has been found.");
 		}
@@ -66,7 +72,7 @@ public class QRCodeServices
 
 		@SuppressWarnings("unchecked")
 		final List results = query.getResultList();
-		if(results != null && results.size() > 0)
+		if (results != null && results.size() > 0)
 		{
 			return (QrArtifact) results.get(0);
 		}
@@ -110,7 +116,7 @@ public class QRCodeServices
 
 		@SuppressWarnings("unchecked")
 		final List results = query.getResultList();
-		if(results != null && results.size() > 0)
+		if (results != null && results.size() > 0)
 		{
 			return (vCardEntity) results.get(0);
 		}
@@ -122,9 +128,57 @@ public class QRCodeServices
 
 	public List<vCardEntity> getVCards(String username)
 	{
-		final Query query = entityManager.createQuery("SELECT u FROM com.djstat.model.vCardEntity u WHERE username = :key");
+		final Query query = entityManager.createQuery(
+				"SELECT u FROM com.djstat.model.vCardEntity u WHERE username = :key");
 		query.setParameter("key", username);
 
 		return query.getResultList();
+	}
+
+	//===============================================================================================================
+	//  ********************************* new impl *********************************************************
+	//===============================================================================================================
+
+
+	public String createBusinessCard(BusinessCard card)
+	{
+		//create a shortcode
+		//save the data
+		//return the new object
+		long cnt = getNextCount();
+		String shortCode = BaseConverterUtil.toBase64(cnt);
+		card.setShortCode(shortCode);
+		entityManager.persist(card);
+		return shortCode;
+	}
+
+	public long getNextCount()
+	{
+		long cnt = 0;
+		final Query query = entityManager.createQuery("SELECT u FROM com.djstat.model.qr.Count");
+
+		@SuppressWarnings("unchecked")
+		final List results = query.getResultList();
+		System.out.println("Count Results Size:"+results.size());
+		Count c = null;
+		for (int i = 0; i < results.size(); i++)
+		{
+			c = (Count) results.get(i);
+			System.out.println("count = " + c);
+		}
+
+		if(c!=null)
+		{
+			cnt = c.getCnt()+1;
+			c.setCnt(cnt);
+		}
+		else
+		{
+			c = new Count();
+			c.setCnt(cnt);
+		}
+
+		entityManager.persist(c);
+		return cnt;
 	}
 }

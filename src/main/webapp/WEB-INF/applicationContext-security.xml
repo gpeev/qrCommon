@@ -35,6 +35,7 @@
         <intercept-url pattern="/peeks/**" access="hasRole('ROLE_USER')" requires-channel="http"/>
         <intercept-url pattern="/profile/**" access="hasRole('ROLE_USER')" requires-channel="http"/>
         <intercept-url pattern="/dashboard/**" access="hasRole('ROLE_USER')" requires-channel="http"/>
+        <intercept-url pattern="/qr/**" access="hasRole('ROLE_USER')" requires-channel="http"/>
 
 
         <!--intercept-url pattern="/assets/**" access="hasRole('ROLE_ANONYMOUS')" requires-channel="http"/>

@@ -4,7 +4,9 @@ public class BaseConverterUtil
 {
 	public static void main(String[] args)
 	{
+		long c = 5209547307818686L;//11/16/2012@4:10PM EST
 		long l = System.nanoTime();
+		System.out.println("nanoTime = " + (l-c));
 
 		String maxValue = Long.MAX_VALUE+"";
 		System.out.println("m["+maxValue.length()+"] = "+maxValue);
@@ -13,6 +15,25 @@ public class BaseConverterUtil
 		System.out.println("d["+d.length()+"] = " + d);
 		String i = BaseConverterUtil.fromOtherBaseToDecimal(64, d)+"";
 		System.out.println("a["+i.length()+"] = "+ i);
+
+
+		System.out.println("NanoTime:"+toBase64(System.nanoTime()-c));
+		System.out.println("NanoTime:"+toBase64(System.nanoTime()-c));
+		System.out.println("NanoTime:"+toBase64(System.nanoTime()-c));
+		System.out.println("NanoTime:"+toBase64(System.nanoTime()-c));
+		System.out.println("NanoTime:"+toBase64(System.nanoTime()-c));
+		System.out.println("NanoTime:"+toBase64(System.nanoTime()-c));
+		System.out.println("NanoTime:"+toBase64(System.nanoTime()-c));
+		System.out.println("MilliTime:"+toBase64(System.currentTimeMillis()+1));
+		System.out.println("MilliTime:"+toBase64(System.currentTimeMillis()+2));
+		System.out.println("MilliTime:"+toBase64(System.currentTimeMillis()+3));
+		System.out.println("MilliTime:"+toBase64(System.currentTimeMillis()+4));
+		System.out.println("MilliTime:"+toBase64(System.currentTimeMillis()+5));
+		System.out.println("MilliTime:"+toBase64(System.currentTimeMillis()+6));
+		System.out.println("MilliTime:"+toBase64(System.currentTimeMillis()+7));
+
+
+
 	}
 
 
