@@ -85,6 +85,10 @@
         <a class="btn btn-success pull-right" href="/myqrs/type" style="margin-top: 10px;">
             <i class="icon-plus icon-white"></i> Create New
         </a>
+        <a class="btn btn-success pull-right" href="/qr/pickType" style="margin-top: 10px;">
+            <i class="icon-plus icon-white"></i> New
+        </a>
+
     </h3>
 </div>
 <div class="table-outer">

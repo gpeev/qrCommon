@@ -152,6 +152,27 @@ public class QRCodeServices
 		return shortCode;
 	}
 
+	public BusinessCard getQrCommon(String key)
+	{
+		final Query query = entityManager.createQuery("SELECT u FROM com.djstat.model.qr.BusinessCard u WHERE shortCode = :key");
+		query.setParameter("key", "b"+key);
+
+		@SuppressWarnings("unchecked")
+		final List results = query.getResultList();
+		System.out.println("results = " + results);
+
+		if (results != null && results.size() > 0)
+		{
+			return (BusinessCard) results.get(0);
+		}
+		else
+		{
+			System.out.println("null get statement");
+			return null;
+		}
+	}
+
+
 	public long getNextCount()
 	{
 		long cnt = 0;

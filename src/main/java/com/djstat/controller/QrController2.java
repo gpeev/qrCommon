@@ -11,6 +11,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.LocaleResolver;
@@ -37,6 +38,20 @@ public class QrController2
 		return "qr/businessCard";
 	}
 
+	@RequestMapping(value = "/prepFinal/{key}", method = RequestMethod.GET)
+	public final String renderGet(@PathVariable("key") final String key, final ModelMap model)
+	{
+		String type = new String(""+key.charAt(0));
+
+		if(type!=null && type.equals("b"))
+		{
+			model.addAttribute("qrdata", qrServices.getQrCommon(key));
+		}
+
+			return "qr/prepFinal";
+	}
+
+
 	@RequestMapping(value = "/businessCard/submit", method = RequestMethod.POST)
 	public final String submitBusinessCard(@ModelAttribute(BUSINESSCARD) @Valid final BusinessCardForm bcf, final BindingResult binding, final HttpServletRequest req, final HttpServletResponse res)
 	{
@@ -57,7 +72,7 @@ public class QrController2
 		//card.setUsername(req.getUserPrincipal().getName());
 
 		String shortCode = qrServices.createBusinessCard(card);
-		return "redirect:render/" + shortCode;
+		return "redirect:/qr/prepFinal/b" + shortCode;
 
 	}
 

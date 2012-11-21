@@ -13,12 +13,6 @@ public class QrCommonImpl implements QrCommon
 	String id;
 	String shortCode;
 
-	enum type
-	{
-		BusinessCard,
-		RealEstateListing,
-		PlainText
-	}
 
 	public String getId()
 	{
@@ -30,13 +24,7 @@ public class QrCommonImpl implements QrCommon
 		this.id = id;
 	}
 
-	public String getShortCode()
-	{
-		return shortCode;
-	}
 
-	public void setShortCode(String shortCode)
-	{
-		this.shortCode = shortCode;
-	}
+
+
 }
