@@ -1,12 +1,10 @@
 package com.djstat.service;
 
 import com.djstat.exception.DuplicateException;
-import com.djstat.form.qr.BusinessCardForm;
 import com.djstat.form.vCard;
 import com.djstat.model.QrArtifact;
 import com.djstat.model.qr.BusinessCard;
 import com.djstat.model.qr.Count;
-import com.djstat.model.qr.QrCommon;
 import com.djstat.model.vCardEntity;
 import com.peev.utils.BaseConverterUtil;
 import org.slf4j.Logger;
@@ -88,6 +86,23 @@ public class QRCodeServices
 		return query.getResultList();
 	}
 
+	public List<BusinessCard> getQrCodeList2(String username)
+	{
+		final Query query = entityManager.createQuery(
+				"SELECT u FROM com.djstat.model.qr.BusinessCard u");//" WHERE username = :username");
+		//query.setParameter("username",username);
+		List l = query.getResultList();
+		for (int i = 0; i < l.size(); i++)
+		{
+			BusinessCard businessCard = (BusinessCard) l.get(i);
+			if (businessCard.getId() == null)
+			{ businessCard.setId("" + (i + 1)); }
+			entityManager.persist(businessCard);
+		}
+		return l;
+	}
+
+
 	public String createUid(String username, String type)
 	{
 		QrArtifact qr = new QrArtifact();
@@ -154,8 +169,9 @@ public class QRCodeServices
 
 	public BusinessCard getQrCommon(String key)
 	{
-		final Query query = entityManager.createQuery("SELECT u FROM com.djstat.model.qr.BusinessCard u WHERE shortCode = :key");
-		query.setParameter("key", "b"+key);
+		final Query query = entityManager.createQuery(
+				"SELECT u FROM com.djstat.model.qr.BusinessCard u WHERE shortCode = :key");
+		query.setParameter("key", "" + key);
 
 		@SuppressWarnings("unchecked")
 		final List results = query.getResultList();
@@ -180,7 +196,7 @@ public class QRCodeServices
 
 		@SuppressWarnings("unchecked")
 		final List results = query.getResultList();
-		System.out.println("Count Results Size:"+results.size());
+		System.out.println("Count Results Size:" + results.size());
 		Count c = null;
 		for (int i = 0; i < results.size(); i++)
 		{
@@ -188,9 +204,9 @@ public class QRCodeServices
 			System.out.println("count = " + c);
 		}
 
-		if(c!=null)
+		if (c != null)
 		{
-			cnt = c.getCnt()+1;
+			cnt = c.getCnt() + 1;
 			c.setCnt(cnt);
 		}
 		else
@@ -201,5 +217,21 @@ public class QRCodeServices
 
 		entityManager.persist(c);
 		return cnt;
+	}
+
+
+	public void deleteAll()
+	{
+		final Query q = entityManager.createQuery("SELECT u FROM com.djstat.model.qr.BusinessCard u");
+		final List l = q.getResultList();
+		for (int i = 0; i < l.size(); i++)
+		{
+			BusinessCard o = (BusinessCard) l.get(i);
+			//o.setId("" + (i + 1));
+			//entityManager.persist(o);
+
+			entityManager.remove(o);
+			entityManager.clear();
+		}
 	}
 }

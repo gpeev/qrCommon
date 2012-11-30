@@ -21,7 +21,7 @@
         @media (max-width: 767px) { body { padding-top: 0; } }
     </style>
 
-    <link href="/assets/ico/favicon.ico" rel="shortcut icon">
+
 </head>
 
 <body>

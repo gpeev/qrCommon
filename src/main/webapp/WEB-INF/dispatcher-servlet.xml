@@ -44,6 +44,8 @@
     <mvc:view-controller path="/qr/plainText" view-name="qr/plainText" />
     <mvc:view-controller path="/qr/reListing" view-name="qr/reListing" /-->
     <mvc:view-controller path="/qr/prepFinal" view-name="qr/prepFinal" />
+    <mvc:view-controller path="/qr/page" view-name="qr/page" />
+    <mvc:view-controller path="/qr/page/b" view-name="qr/page/b" />
 
 
 

@@ -1,9 +1,6 @@
 package com.g;
 
 import com.djstat.model.FaceBookData;
-import com.djstat.service.mail.MailService;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 //import org.springframework.social.facebook.api.Facebook;
 //import org.springframework.social.facebook.api.ImageType;
 //import org.springframework.social.facebook.api.Page;
@@ -12,7 +9,6 @@ import org.springframework.web.client.RestTemplate;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.List;
 
 
 public class SocialTest

@@ -10,9 +10,9 @@ import javax.persistence.Id;
 public class BusinessCard extends QrCommonImpl
 {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	String id;
+
+	//@GeneratedValue(strategy = GenerationType.AUTO)
+	private String id;
 	private String firstName;
 	private String lastName;
 	private String email;
@@ -20,18 +20,22 @@ public class BusinessCard extends QrCommonImpl
 	private String address;
 	private String username;
 
-	public BusinessCard(String fName, String lName, String email, String phone, String address)
-	{
-		this.firstName = fName;
-		this.lastName = lName;
-		this.email = email;
-		this.phone = phone;
-		this.address = address;
-	}
+
 
 	public BusinessCard()
 	{
 		//To change body of created methods use File | Settings | File Templates.
+	}
+
+	@Id
+	public String getId()
+	{
+		return id;
+	}
+
+	public void setId(String id)
+	{
+		this.id = id;
 	}
 
 	public String getFirstName()
@@ -102,5 +106,21 @@ public class BusinessCard extends QrCommonImpl
 	public void setShortCode(String shortCode)
 	{
 		this.shortCode = shortCode;
+	}
+
+	@Override
+	public String toString()
+	{
+		return "BusinessCard{" +
+				"id='" + id + '\'' +
+				", firstName='" + firstName + '\'' +
+				", lastName='" + lastName + '\'' +
+				", email='" + email + '\'' +
+				", phone='" + phone + '\'' +
+				", address='" + address + '\'' +
+				", username='" + username + '\'' +
+				", shortcode='" + shortCode + '\'' +
+				//", parentId='" + super.id + '\'' +
+				'}';
 	}
 }

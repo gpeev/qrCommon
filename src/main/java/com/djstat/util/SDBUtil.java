@@ -5,7 +5,6 @@ import com.amazonaws.auth.PropertiesCredentials;
 import com.amazonaws.services.simpledb.AmazonSimpleDB;
 import com.amazonaws.services.simpledb.AmazonSimpleDBClient;
 import com.amazonaws.services.simpledb.model.*;
-import com.djstat.model.auth.UserAccount;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -1,7 +1,6 @@
 package com.djstat.service.mail;
 
 import com.djstat.model.auth.UserAccount;
-import com.sun.mail.iap.ConnectionException;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Service;
 
