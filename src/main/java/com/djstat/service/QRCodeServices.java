@@ -86,92 +86,39 @@ public class QRCodeServices
 		return query.getResultList();
 	}
 
-	public List<BusinessCard> getQrCodeList2(String username)
+	public List<QrArtifact> getQrCodeList2(String username)
 	{
 		final Query query = entityManager.createQuery(
-				"SELECT u FROM com.djstat.model.qr.BusinessCard u");//" WHERE username = :username");
-		//query.setParameter("username",username);
+				"SELECT u FROM com.djstat.model.QrArtifact u WHERE username = :username");
+		query.setParameter("username", username);
 		List l = query.getResultList();
 		for (int i = 0; i < l.size(); i++)
 		{
-			BusinessCard businessCard = (BusinessCard) l.get(i);
-			if (businessCard.getId() == null)
-			{ businessCard.setId("" + (i + 1)); }
-			entityManager.persist(businessCard);
+			QrArtifact qr = (QrArtifact) l.get(i);
+			if (qr.getId() == null)
+			{ qr.setId("" + (i + 1)); }
+			entityManager.persist(qr);
 		}
 		return l;
 	}
 
-
-	public String createUid(String username, String type)
-	{
-		QrArtifact qr = new QrArtifact();
-		qr.setUsername(username);
-		qr.setType(type);
-		//qr.setCreateDateTime(new Date().getTime());
-		entityManager.persist(qr);
-		System.out.println("The qrArtifact ID=" + qr.getId());
-		return qr.getId();
-	}
-
-	public String addVCard(String username, vCard vcard)
-	{
-
-		vCardEntity ent = new vCardEntity(username, vcard);
-		ent.setCreateDateTime(new Date().getTime());
-		entityManager.persist(ent);
-		System.out.println("creating vCard w ID=" + ent.getId());
-		return ent.getId();
-	}
-
-	public vCardEntity getVCard(String key)
-	{
-		final Query query = entityManager.createQuery("SELECT u FROM com.djstat.model.vCardEntity u WHERE id = :key");
-		query.setParameter("key", key);
-
-		@SuppressWarnings("unchecked")
-		final List results = query.getResultList();
-		if (results != null && results.size() > 0)
-		{
-			return (vCardEntity) results.get(0);
-		}
-		else
-		{
-			return null;
-		}
-	}
-
-	public List<vCardEntity> getVCards(String username)
-	{
-		final Query query = entityManager.createQuery(
-				"SELECT u FROM com.djstat.model.vCardEntity u WHERE username = :key");
-		query.setParameter("key", username);
-
-		return query.getResultList();
-	}
-
-	//===============================================================================================================
-	//  ********************************* new impl *********************************************************
-	//===============================================================================================================
-
-
-	public String createBusinessCard(BusinessCard card)
+	public String createBusinessCard(QrArtifact qr)
 	{
 		//create a shortcode
 		//save the data
 		//return the new object
 		long cnt = getNextCount();
 		String shortCode = BaseConverterUtil.toBase64(cnt);
-		card.setShortCode(shortCode);
-		entityManager.persist(card);
+		qr.setShortCode(shortCode);
+		entityManager.persist(qr);
 		return shortCode;
 	}
 
-	public BusinessCard getQrCommon(String key)
+	public QrArtifact getQrCommon(String shortCode)
 	{
 		final Query query = entityManager.createQuery(
-				"SELECT u FROM com.djstat.model.qr.BusinessCard u WHERE shortCode = :key");
-		query.setParameter("key", "" + key);
+				"SELECT u FROM com.djstat.model.QrArtifact u WHERE shortCode = :shortCode");
+		query.setParameter("shortCode", "" + shortCode);
 
 		@SuppressWarnings("unchecked")
 		final List results = query.getResultList();
@@ -179,11 +126,11 @@ public class QRCodeServices
 
 		if (results != null && results.size() > 0)
 		{
-			return (BusinessCard) results.get(0);
+			return (QrArtifact) results.get(0);
 		}
 		else
 		{
-			System.out.println("null get statement");
+			System.out.println("Could not find shortCode: " + shortCode);
 			return null;
 		}
 	}
@@ -220,18 +167,93 @@ public class QRCodeServices
 	}
 
 
-	public void deleteAll()
+	public void deleteAllBusinessCards()
 	{
 		final Query q = entityManager.createQuery("SELECT u FROM com.djstat.model.qr.BusinessCard u");
 		final List l = q.getResultList();
 		for (int i = 0; i < l.size(); i++)
 		{
 			BusinessCard o = (BusinessCard) l.get(i);
-			//o.setId("" + (i + 1));
-			//entityManager.persist(o);
 
 			entityManager.remove(o);
 			entityManager.clear();
 		}
+	}
+
+	public void deleteAllQrArtifacts()
+	{
+		final Query q = entityManager.createQuery("SELECT u FROM com.djstat.model.QrArtifact u");
+		final List l = q.getResultList();
+		for (int i = 0; i < l.size(); i++)
+		{
+			QrArtifact o = (QrArtifact) l.get(i);
+			entityManager.remove(o);
+			entityManager.clear();
+		}
+	}
+
+
+	/*
+	public String createUid(String username, String type)
+	{
+		QrArtifact qr = new QrArtifact();
+		qr.setUsername(username);
+		qr.setType(type);
+		//qr.setCreateDateTime(new Date().getTime());
+		entityManager.persist(qr);
+		System.out.println("The qrArtifact ID=" + qr.getId());
+		return qr.getId();
+	}
+	*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	// Deprecating. --------------------------------------------------------------------
+	public String addVCard(String username, vCard vcard)
+	{
+
+		vCardEntity ent = new vCardEntity(username, vcard);
+		ent.setCreateDateTime(new Date().getTime());
+		entityManager.persist(ent);
+		System.out.println("creating vCard w ID=" + ent.getId());
+		return ent.getId();
+	}
+
+	public vCardEntity getVCard(String key)
+	{
+		final Query query = entityManager.createQuery("SELECT u FROM com.djstat.model.vCardEntity u WHERE id = :key");
+		query.setParameter("key", key);
+
+		@SuppressWarnings("unchecked")
+		final List results = query.getResultList();
+		if (results != null && results.size() > 0)
+		{
+			return (vCardEntity) results.get(0);
+		}
+		else
+		{
+			return null;
+		}
+	}
+
+	public List<vCardEntity> getVCards(String username)
+	{
+		final Query query = entityManager.createQuery(
+				"SELECT u FROM com.djstat.model.vCardEntity u WHERE username = :key");
+		query.setParameter("key", username);
+
+		return query.getResultList();
 	}
 }

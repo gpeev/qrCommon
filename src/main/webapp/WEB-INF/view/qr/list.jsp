@@ -17,13 +17,14 @@
 
             <div class="span2" style="border: 1px blue solid; padding: 3px;margin: 3px; text-align: center;">
                 <a  href="#myModal${bCard.shortCode}" data-toggle="modal">
-                    <img src="/qr/img/b/${bCard.shortCode}" alt=""/>
+                    <img src="/qr/img/${bCard.shortCode}/100" alt=""/>
                 </a><br>
-                <a href="${directUrl}/b${bCard.shortCode}" target="_blank">${directUrl}/b${bCard.shortCode}</a>
+                <a href="${directUrl}/${bCard.shortCode}" target="_blank">${directUrl}/${bCard.shortCode}</a>
             </div>
 
                 ${bCard}
             <br>
+            <a href="/qr/prepFinal/${bCard.shortCode}">Edit</a>
             <br>
             <!-- Modal -->
             <div id="myModal${bCard.shortCode}" class="modal hide fade" tabindex="-1" role="dialog"

@@ -1,8 +1,8 @@
 package com.djstat.controller;
 
-
+import com.djstat.form.PreviewUpdate;
 import com.djstat.form.qr.BusinessCardForm;
-import com.djstat.model.qr.BusinessCard;
+import com.djstat.model.QrArtifact;
 import com.djstat.service.QRCodeServices;
 import net.glxn.qrgen.QRCode;
 import net.glxn.qrgen.image.ImageType;
@@ -29,40 +29,169 @@ import java.net.UnknownHostException;
 import java.util.List;
 
 @Controller
-@RequestMapping("/qr")
+
 public class QrController2
 {
-	public static final String BUSINESSCARD = "businesscard";
+	/**
+	 * This is the entry into the app - all url reqs are first processed here so we can pull up the qr it need be.
+	 *
+	 * @param shortCode
+	 * @param req
+	 * @param model
+	 * @return
+	 */
+	@RequestMapping(value = "/{shortCode}", method = RequestMethod.GET)
+	public final String getQrCodeImg(
+			@PathVariable("shortCode") final String shortCode, final HttpServletRequest req, final ModelMap model)
+	{
+		QrArtifact qr = qrServices.getQrCommon(shortCode);
+
+		if (qr != null)
+		{
+			model.addAttribute(QRDATA, qr);
+
+			// todo - pull this out and make general since it will be required in most renderings
+			model.addAttribute("directUrl", getUrl(req));
+
+			String renderPage = "qr/page/default";
+			switch (qr.getType())
+			{
+				case CONTACTCARD:
+					renderPage = "qr/page/b";
+					break;
+			}
+			return renderPage;
+		}
+		//	req.getSession().setAttribute(shortCode, qr);
+//			System.out.println("Found the QR:" + qrCommon);
+//			model.addAttribute("businesscard", qrCommon);
+		//return "qr/page/b";
+//			return "redirect:/qr/page/b/" + shortCode;
+
+		System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$ Redirecting>>> " + req.getServletPath());
+		return req.getServletPath();
+	}
+
+
+	public static final String QRDATA = "qrdata";
 
 	private LocaleResolver localeResolver;
 	private MessageSource messageSource;
 	private QRCodeServices qrServices;
 
-	@RequestMapping(value = "/businessCard", method = RequestMethod.GET)
+	// ==================== Input Forms : Start
+	@RequestMapping(value = "/qr/businessCard", method = RequestMethod.GET)
 	public final String createBusinessCard(final ModelMap model)
 	{
-		model.addAttribute(BUSINESSCARD, new BusinessCardForm());
+		model.addAttribute("bcard", new BusinessCardForm());
 		return "qr/businessCard";
 	}
+	// ==================== Input Forms : End
 
-	@RequestMapping(value = "/page/b/{shortCode}", method = RequestMethod.GET)
+
+	// ==================== Form Processing : Start
+	@RequestMapping(value = "/qr/businessCard/submit", method = RequestMethod.POST)
+	public final String submitBusinessCard(@ModelAttribute(
+			QRDATA) @Valid final BusinessCardForm bcf, final BindingResult binding, final HttpServletRequest req)
+	{
+		//final Locale locale = localeResolver.resolveLocale(req);
+
+		if (binding.hasErrors())
+		{
+			return "qr/businessCard";
+		}
+
+		QrArtifact card = new QrArtifact();
+		card.setAddress(bcf.getAddress());
+		card.setFirstName(bcf.getFirstName());
+		card.setLastName(bcf.getLastName());
+		card.setEmail(bcf.getEmail());
+		card.setPhone(bcf.getPhone());
+		card.setUsername(req.getUserPrincipal().getName());
+		card.setType(QrArtifact.QrType.CONTACTCARD);
+		String shortCode = qrServices.createBusinessCard(card);
+
+		return "redirect:/qr/prepFinal/" + shortCode;
+	}
+
+
+	@RequestMapping(value = "/qr/previewUpdate/submit", method = RequestMethod.POST)
+	public final String submitPreviewUpdate(
+			@ModelAttribute(QRDATA) @Valid final PreviewUpdate pre, final BindingResult binding, final HttpServletRequest req)
+	{
+		if (binding.hasErrors())
+		{
+			return "qr/businessCard";
+		}
+		return "redirect:/qr/prepFinal/" + pre.getShortCode();
+	}
+
+		// ==================== Form Processing : End
+
+
+	@RequestMapping(value = "/qr/prepFinal/{shortCode}", method = RequestMethod.GET)
+	public final String renderGet(@PathVariable("shortCode") final String shortCode, final ModelMap model, final HttpServletRequest req)
+	{
+		QrArtifact qr = qrServices.getQrCommon(shortCode);
+		//todo - put qr into PreviewUpdate
+
+		PreviewUpdate up = new PreviewUpdate(qr);
+
+
+		model.addAttribute("qrdata", qr);
+		model.addAttribute("preUpdate", up);
+		model.addAttribute("directUrl", getUrl(req));
+		return "qr/prepFinal";
+	}
+
+
+	///########################################################################################
+
+	/**
+	 * Used to show a sample page of qr type
+	 *
+	 * @param shortCode
+	 * @param model
+	 * @param req
+	 * @return
+	 */
+	@RequestMapping(value = "/qr/page/{shortCode}", method = RequestMethod.GET)
 	public final String page(@PathVariable(
 			"shortCode") final String shortCode, final ModelMap model, final HttpServletRequest req)
 	{
 
-		BusinessCard bc = (BusinessCard) qrServices.getQrCommon(shortCode.substring(1));
-		model.addAttribute(BUSINESSCARD, bc);
+		QrArtifact qr = qrServices.getQrCommon(shortCode.substring(1));
+		model.addAttribute(QRDATA, qr);
+
+		// todo - pull this out and make general since it will be required in most renderings
 		model.addAttribute("directUrl", getUrl(req));
-		return "qr/page/b";
+
+		String renderPage = "qr/page/default";
+		switch (qr.getType())
+		{
+			case CONTACTCARD:
+				renderPage = "qr/page/b";
+				break;
+		}
+		return renderPage;
 	}
 
-	@RequestMapping(value = "/addToContacts/{shortCode}", method = RequestMethod.GET)
+	/**
+	 * Used to trigger the generation of a v-card in the v-card format.
+	 *
+	 * @param shortCode
+	 * @param model
+	 * @param req
+	 * @param res
+	 */
+	@RequestMapping(value = "/qr/addToContacts/{shortCode}", method = RequestMethod.GET)
 	public void addToContacts(@PathVariable(
-			"shortCode") final String shortCode, final ModelMap model, final HttpServletRequest req, final HttpServletResponse res)
+			"shortCode") final String shortCode, final ModelMap model, final HttpServletRequest req,
+			final HttpServletResponse res)
 	{
-		BusinessCard bc = (BusinessCard) qrServices.getQrCommon(shortCode.substring(1));
-		model.addAttribute(BUSINESSCARD, bc);
-		model.addAttribute("directUrl", getUrl(req));
+		QrArtifact bc = qrServices.getQrCommon(shortCode);
+		//model.addAttribute(QRDATA, bc);
+		//model.addAttribute("directUrl", getUrl(req));
 		PrintWriter out = null;
 
 		try
@@ -71,37 +200,18 @@ public class QrController2
 		}
 		catch (IOException e)
 		{
-			e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+			e.printStackTrace();
 		}
 
-		if(out!=null)
+		if (out != null)
 		{
 			out.print(bc);
 			out.flush();
-			return;
 		}
-
-
-		//return "qr/page/b";
-	}
-
-	@RequestMapping(value = "/prepFinal/{key}", method = RequestMethod.GET)
-	public final String renderGet(@PathVariable("key") final String key, final ModelMap model)
-	{
-		String type = key.charAt(0) + "";
-		if (type != null && type.equals("b"))
-		{
-			String shortCode = key.substring(1);
-			BusinessCard qrCommon = qrServices.getQrCommon(shortCode);
-			model.addAttribute("qrdata", qrCommon);
-			model.addAttribute("shortCode", shortCode);
-		}
-
-		return "qr/prepFinal";
 	}
 
 
-	public String getUrl(HttpServletRequest req)
+	private String getUrl(HttpServletRequest req)
 	{
 		String url = null;
 
@@ -121,80 +231,45 @@ public class QrController2
 
 	}
 
-	@RequestMapping(value = "/businessCard/submit", method = RequestMethod.POST)
-	public final String submitBusinessCard(@ModelAttribute(
-			BUSINESSCARD) @Valid final BusinessCardForm bcf, final BindingResult binding, final HttpServletRequest req, final HttpServletResponse res)
-	{
-		//final Locale locale = localeResolver.resolveLocale(req);
 
-		if (binding.hasErrors())
-		{
-			return "qr/businessCard";
-		}
-
-
-		BusinessCard card = new BusinessCard();
-		card.setAddress(bcf.getAddress());
-		card.setFirstName(bcf.getFirstName());
-		card.setLastName(bcf.getLastName());
-		//card.setEmail(bcf.getEmail());
-		//card.setPhone(bcf.getPhone());
-		//card.setUsername(req.getUserPrincipal().getName());
-
-		String shortCode = qrServices.createBusinessCard(card);
-		System.out.println("ShortCode being entered: " + shortCode);
-
-		return "redirect:/qr/prepFinal/b" + shortCode;
-
-	}
-
-	@RequestMapping(value = "/qrList", method = RequestMethod.GET)
-	public final String getList(final HttpServletRequest req, final HttpServletResponse res, final ModelMap model)
+	@RequestMapping(value = "/qr/qrList", method = RequestMethod.GET)
+	public final String getList(final HttpServletRequest req, final ModelMap model)
 	{
 		String uname = req.getUserPrincipal().getName();
-		List<BusinessCard> list = qrServices.getQrCodeList2(uname);
+		List<QrArtifact> list = qrServices.getQrCodeList2(uname);
 		System.out.println("Cnt [" + uname + "] = " + list.size());
 		model.addAttribute("qrListBusinessCard", list);
 		model.addAttribute("directUrl", getUrl(req));
 		return "qr/list";
 	}
 
-	@RequestMapping(value = "/deleteAll", method = RequestMethod.GET)
-	public final String delAll(final HttpServletRequest req, final HttpServletResponse res, final ModelMap model)
+	@RequestMapping(value = "/qr/deleteAllBusinessCards", method = RequestMethod.GET)
+	public final String delAllBusinessCards()
 	{
-		qrServices.deleteAll();
-		//System.out.println("Cnt ["+uname+"] = "+list.size());
-		//model.addAttribute("qrListBusinessCard", list);
-
+		qrServices.deleteAllBusinessCards();
 		return "redirect:/qr/qrList";
 	}
 
-	@RequestMapping(value = "/img/{type}/{key}", method = RequestMethod.GET)
-	public final void getQrCodeImg(@PathVariable("type") final String type, @PathVariable(
-			"key") final String key, final HttpServletRequest req, final HttpServletResponse res)
+	@RequestMapping(value = "/qr/deleteAllQrArtifacts", method = RequestMethod.GET)
+	public final String delAllQrArtifacts()
 	{
-		//String id = qrServices.getVCard(key).getId();
-		String url = null;
+		qrServices.deleteAllBusinessCards();
+		return "redirect:/qr/qrList";
+	}
 
-		try
-		{
-			url = req.getScheme() + "://" + InetAddress.getLocalHost().getHostAddress();
-			System.out.println("HostAddress:" + InetAddress.getLocalHost().getHostAddress());
-			System.out.println("ConAddress:" + InetAddress.getLocalHost().getCanonicalHostName());
-			System.out.println("HostName:" + InetAddress.getLocalHost().getHostName());
 
-		}
-		catch (UnknownHostException e)
-		{
-			e.printStackTrace();
-		}
-		String port = req.getServerPort() + "";
-		if (port != null && !port.equals("80")) { url += ":" + port; }
+	@RequestMapping(value = "/qr/img/{shortCode}/{size}", method = RequestMethod.GET)
+	public final void getQrCodeImg(@PathVariable(
+			"shortCode") final String shortCode,@PathVariable(
+			"size")  String size, final HttpServletRequest req, final HttpServletResponse res)
+	{
 
-		url += "/qr/action/" + type + key;
-
-		System.out.println("Create QR Code with URL: " + url);
-		ByteArrayOutputStream out = QRCode.from(url).to(ImageType.PNG).stream();
+		if(size==null||size.equals(""))
+			size=450+"";
+		String url = getUrl(req) + "/"+shortCode;
+		System.out.println("Create QR Code with URL["+size+"]: " + url);
+		ByteArrayOutputStream out = QRCode.from(url).withSize(Integer.parseInt(size),Integer.parseInt(size)).to(
+				ImageType.GIF).stream();
 		res.setContentType("image/png");
 		res.setContentLength(out.size());
 
@@ -211,6 +286,9 @@ public class QrController2
 			e.printStackTrace();
 		}
 	}
+
+
+
 
 
 	//========================================================================

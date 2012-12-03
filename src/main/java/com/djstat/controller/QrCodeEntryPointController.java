@@ -1,6 +1,7 @@
 package com.djstat.controller;
 
 
+import com.djstat.model.QrArtifact;
 import com.djstat.model.qr.BusinessCard;
 import com.djstat.service.QRCodeServices;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +23,7 @@ public class QrCodeEntryPointController
 	private MessageSource messageSource;
 	private QRCodeServices qrServices;
 
-	@RequestMapping(value = "/{shortCode}", method = RequestMethod.GET)
+	@RequestMapping(value = "/xyz/{shortCode}", method = RequestMethod.GET)
 	public final String getQrCodeImg(
 			@PathVariable("shortCode") final String shortCode, final HttpServletRequest req,final ModelMap model)
 	{
@@ -30,7 +31,7 @@ public class QrCodeEntryPointController
 		if (type != null && type.equals("b"))
 		{
 			String sCode = shortCode.substring(1);
-			BusinessCard qrCommon = qrServices.getQrCommon(sCode);
+			QrArtifact qrCommon = qrServices.getQrCommon(sCode);
 			if (qrCommon != null)
 			{
 				req.getSession().setAttribute(shortCode,qrCommon);

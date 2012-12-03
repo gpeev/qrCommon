@@ -2,7 +2,7 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 
-<form:form modelAttribute="businesscard" action="/qr/businessCard/submit" method="post">
+<form:form modelAttribute="bcard" action="/qr/businessCard/submit" method="post">
     <fieldset>
         <legend><spring:message code="qr.businesscard.legend" /></legend>
         <p>

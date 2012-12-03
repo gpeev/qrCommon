@@ -2,29 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae19ea33-e412-404b-8af7-a2fdeba14808" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrCodeEntryPointController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/model/qr/GTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/page.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/page/b.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/form/PreviewUpdate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/page/default.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qrCommon.iws" afterPath="$PROJECT_DIR$/qrCommon.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrCodeEntryPointController.java" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrCodeEntryPointController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/djstat/form/vCard.java" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/form/vCard.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/djstat/model/QrArtifact.java" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/model/QrArtifact.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/djstat/model/qr/BusinessCard.java" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/model/qr/BusinessCard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/djstat/model/qr/QrCommonImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/model/qr/QrCommonImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/djstat/service/QRCodeServices.java" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/service/QRCodeServices.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/djstat/service/mail/MailService.java" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/service/mail/MailService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/djstat/util/SDBUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/util/SDBUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/g/SocialTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/g/SocialTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-security.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-security.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/listing.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/listing.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/pc.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/pc.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/pickType.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/pickType.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/businessCard.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/businessCard.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/prepFinal.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/prepFinal.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/vcard.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/vcard.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/vcardpc.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/vcardpc.jsp" />
     </list>
     <ignored path="qrCommon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,65 +72,75 @@
       <file leaf-file-name="QrController2.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="43" selection-start="2044" selection-end="2044" vertical-scroll-proportion="0.0">
+            <state line="131" column="43" selection-start="4156" selection-end="4171" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext-security.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-security.xml">
+      <file leaf-file-name="businessCard.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/businessCard.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="43" selection-start="2923" selection-end="2923" vertical-scroll-proportion="-22.1">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="63" selection-start="2388" selection-end="2388" vertical-scroll-proportion="-22.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="b.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/page/b.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="14" selection-start="357" selection-end="357" vertical-scroll-proportion="-8.5">
+            <state line="4" column="32" selection-start="212" selection-end="212" vertical-scroll-proportion="-2.6153846">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp">
+      <file leaf-file-name="prepFinal.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/prepFinal.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="64" selection-start="1696" selection-end="1696" vertical-scroll-proportion="0.7657658">
+            <state line="90" column="28" selection-start="3352" selection-end="3352" vertical-scroll-proportion="1.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QRCodeServices.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/service/QRCodeServices.java">
+      <file leaf-file-name="PreviewUpdate.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/form/PreviewUpdate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="233" column="34" selection-start="5947" selection-end="5947" vertical-scroll-proportion="0.0">
+            <state line="103" column="5" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#1148#1178#0" expanded="true" />
-                <element signature="e#1723#1753#0" expanded="true" />
-                <element signature="e#3387#3417#0" expanded="true" />
-                <element signature="e#4698#4728#0" expanded="true" />
-                <element signature="e#5139#5169#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QrArtifact.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/model/QrArtifact.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="147" column="5" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Register.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/form/Register.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="46" selection-start="189" selection-end="213" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QrData.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/form/QrData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="204" selection-end="227" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3152" column="0" selection-start="56866" selection-end="56984" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -162,22 +159,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/vcard.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/vcardpc.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/prepFinal.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/djstat/model/qr/GTest.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/pickType.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/djstat/model/QrArtifact.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/djstat/model/qr/QrCommonImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/djstat/service/QRCodeServices.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/djstat/model/qr/BusinessCard.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/page.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/page/businessCard.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-security.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/djstat/service/QRCodeServices.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/businessCard.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrCodeEntryPointController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/page/default.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/djstat/model/QrType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/djstat/model/QrArtifact.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/djstat/form/PreviewUpdate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/prepFinal.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp" />
       </list>
     </option>
   </component>
@@ -433,74 +430,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="decorators" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -734,6 +663,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="qr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="djstat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1035,7 +998,11 @@
       <created>1353529118944</created>
       <updated>1353529118944</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated">
+      <created>1354308475683</created>
+      <updated>1354308475683</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1051,12 +1018,12 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24871135" sideWeight="0.54393303" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24871135" sideWeight="0.7866109" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28033474" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45606694" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21338913" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UML Diagrams" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1078,8 +1045,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <value>
         <are-packages-shown value="false" />
@@ -1110,7 +1077,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="rendering page support" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1127,6 +1094,7 @@
     <MESSAGE value="cleaning up" />
     <MESSAGE value="fixing all and adding new qr support" />
     <MESSAGE value="rendering page support" />
+    <MESSAGE value="updated" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -1170,130 +1138,126 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/model/QrArtifact.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/controller/QrCodeEntryPointController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="6" selection-start="215" selection-end="215" vertical-scroll-proportion="-0.7369942">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/model/qr/QrCommonImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
+        <state line="33" column="22" selection-start="1217" selection-end="1217" vertical-scroll-proportion="0.44219652">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="369" selection-end="369" vertical-scroll-proportion="0.20238096">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/businessCard.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/model/qr/BusinessCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="7" selection-start="569" selection-end="569" vertical-scroll-proportion="0.6577381">
+        <state line="9" column="25" selection-start="197" selection-end="209" vertical-scroll-proportion="0.14837398">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/page/default.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="46" selection-start="310" selection-end="310" vertical-scroll-proportion="-7.8461537">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/page/b.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="14" selection-start="357" selection-end="357" vertical-scroll-proportion="-8.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/page.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="63" selection-start="2388" selection-end="2388" vertical-scroll-proportion="-22.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="43" selection-start="2923" selection-end="2923" vertical-scroll-proportion="-22.1">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/controller/QrCodeEntryPointController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="43" selection-start="1703" selection-end="1703" vertical-scroll-proportion="0.5534682">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/includes/topNav.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.6554365">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/includes/sideNav.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/decorators/master.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.17417417">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="43" selection-start="2044" selection-end="2044" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="358" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/service/QRCodeServices.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="233" column="34" selection-start="5947" selection-end="5947" vertical-scroll-proportion="0.0">
+        <state line="114" column="56" selection-start="2841" selection-end="2841" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#1148#1178#0" expanded="true" />
             <element signature="e#1723#1753#0" expanded="true" />
-            <element signature="e#3387#3417#0" expanded="true" />
-            <element signature="e#4698#4728#0" expanded="true" />
-            <element signature="e#5139#5169#0" expanded="true" />
+            <element signature="e#3079#3109#0" expanded="true" />
+            <element signature="e#3538#3568#0" expanded="true" />
+            <element signature="e#5499#5529#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/myqrs/businessScanPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3152" column="0" selection-start="56866" selection-end="56984" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/form/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="46" selection-start="189" selection-end="213" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/form/QrData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="204" selection-end="227" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/model/QrArtifact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="5" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/qrgen-1.0.jar!/net/glxn/qrgen/QRCode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="13" selection-start="737" selection-end="737" vertical-scroll-proportion="0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/form/PreviewUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="5" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="43" selection-start="4156" selection-end="4171" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="64" selection-start="1696" selection-end="1696" vertical-scroll-proportion="0.7657658">
+        <state line="26" column="21" selection-start="998" selection-end="998" vertical-scroll-proportion="0.43079922">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/businessCard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="32" selection-start="212" selection-end="212" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/prepFinal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="28" selection-start="3352" selection-end="3352" vertical-scroll-proportion="1.0">
           <folding />
         </state>
       </provider>
