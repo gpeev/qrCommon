@@ -41,6 +41,7 @@
         <intercept-url pattern="/qr/page/**" access="hasRole('ROLE_ANONYMOUS')" requires-channel="http"/>
         <intercept-url pattern="/qr/page/b/**" access="hasRole('ROLE_ANONYMOUS')" requires-channel="http"/>
         <intercept-url pattern="/qr/**" access="hasRole('ROLE_USER')" requires-channel="http"/>
+        <intercept-url pattern="/excludes/**" access="hasRole('ROLE_USER')" requires-channel="http"/>
 
 
         <!--intercept-url pattern="/assets/**" access="hasRole('ROLE_ANONYMOUS')" requires-channel="http"/>

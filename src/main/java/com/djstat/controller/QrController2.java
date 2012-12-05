@@ -26,7 +26,9 @@ import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @Controller
 
@@ -44,10 +46,23 @@ public class QrController2
 	public final String getQrCodeImg(
 			@PathVariable("shortCode") final String shortCode, final HttpServletRequest req, final ModelMap model)
 	{
+		Set bypass = new HashSet();
+		bypass.add("/favicon.ico");
+		bypass.add("/dashboard");
+		bypass.add("/login");
+		if(bypass.contains(req.getServletPath()))
+		{
+			return req.getServletPath();
+		}
+
+
+
+
 		QrArtifact qr = qrServices.getQrCommon(shortCode);
 
 		if (qr != null)
 		{
+			System.out.println("QR:"+qr);
 			model.addAttribute(QRDATA, qr);
 
 			// todo - pull this out and make general since it will be required in most renderings
@@ -57,10 +72,11 @@ public class QrController2
 			switch (qr.getType())
 			{
 				case CONTACTCARD:
-					renderPage = "qr/page/b";
+					//renderPage = "qr/page/b";
+					renderPage = "excludes/businessCardPreview";
 					break;
 			}
-			return renderPage;
+			return "redirect:"+renderPage;
 		}
 		//	req.getSession().setAttribute(shortCode, qr);
 //			System.out.println("Found the QR:" + qrCommon);

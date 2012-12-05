@@ -19,7 +19,7 @@
                 <a  href="#myModal${bCard.shortCode}" data-toggle="modal">
                     <img src="/qr/img/${bCard.shortCode}/100" alt=""/>
                 </a><br>
-                <a href="${directUrl}/${bCard.shortCode}" target="_blank">${directUrl}/${bCard.shortCode}</a>
+                <a href="${directUrl}/${bCard.shortCode}" target="_blank">View</a>
             </div>
 
                 ${bCard}

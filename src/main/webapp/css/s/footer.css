@@ -1,0 +1,48 @@
+.footer.scan {
+    border: none;
+    background: url(/images/s/mobile/textures/footer.png);
+}
+.footer.scan .createYourFreeProfile {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url(/images/s/mobile/footer/sign-up-free.png);
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 124px auto;
+    -webkit-background-size: 124px auto;
+    height: 16px;
+    left: 11px;
+    position: absolute;
+    top: 9px;
+    width: 124px;
+    text-indent: -999px;
+}
+.footer.scan .downloadFreeScanApp {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url(/images/s/mobile/footer/download-free-scan-app.png);
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 124px auto;
+    -webkit-background-size: 124px auto;
+    height: 16px;
+    right: 11px;
+    position: absolute;
+    top: 9px;
+    width: 124px;
+    text-indent: 999px;
+}
+
+.footer .ui-grid-b {
+    border-top: 1px solid rgba(255,255,255,.5);
+}
+.footer.ui-bar-a {
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 -1px 1px rgba(58, 60, 64, .85);
+    font: 10px;
+}

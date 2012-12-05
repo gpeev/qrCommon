@@ -2,16 +2,144 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae19ea33-e412-404b-8af7-a2fdeba14808" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/form/PreviewUpdate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/page/default.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/peev/samples/AmazonDynamoDBSample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/excludes/businessCardPreview.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/s/footer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/s/scan-page.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.mobile-1.1.0-rc.1.min.js" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._add-contact.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._android.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._angellist.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._appstore.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._background-grey.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._blue-button-iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._blue-button-qr-code-square.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._business-qr-code.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._business-scan-page-preview.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._button-background.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._button.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._calendar.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._close.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._colorpicker.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._colorpicker_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._colorpicker_select.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._create-yours-free-sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._custom_background.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._custom_hex.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._custom_hsb_b.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._custom_hsb_h.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._custom_hsb_s.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._custom_indic.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._custom_rgb_b.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._custom_rgb_g.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._custom_rgb_r.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._custom_submit.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._dot-check-green.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._down-button.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._download-scan-android-hover.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._download-scan-android.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._download-scan-app-sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._download-scan-apple-hover.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._download-scan-apple.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._download-scan-windows-hover.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._download-scan-windows.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._download-scan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._download-the-app.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._dribbble.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._email.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._exclamation-dot-red.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._expand-subtract.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._facebook-check-in-preview-background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._facebook-check-in-preview.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._facebook-like-preview-background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._facebook-like-preview.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._feature-list.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._flickr.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._footer-social-sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._foursquare-check-in-preview-background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._foursquare-check-in-preview.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._foursquare.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._github.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._google-plus.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._how-it-works.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._icon-analytics.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._icon-custom-applications.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._icon-hosted.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._icon-mobile-content.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._icon-more-coming.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._icon-resolution.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._icon-shortened-urls.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._icon-social-actions.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._icon-wi-fi.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._input-background.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._instagram.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._klout.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._loading-circle-bars-grey.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._lock-form.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._lock.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._network-sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._next-page-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._page-navigator-active.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._page-navigator-background.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._page-navigator-dependency-locked.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._page-navigator-locked.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._page-navigator-unlocked.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._page-navigator-warning.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._personal-scan-page-preview.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._phone.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._pinterest.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._plus-dot-green.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._postage.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._preview-iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._qr-code-preview-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._question-mark-circle-blue.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._san-francisco.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._scan-for-businesses.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._scan-page-picture-default-portrait.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._scan-page-preview-background.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._scan-pages-by-scan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._scan-team.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._scan-video.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._send-contact.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._sign-up.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._social-buttons-sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._social-connections.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._social.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._socialbutton-checkmark.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._soft-grain.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._text-preview-background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._text-preview.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._text.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._tip-arrow-left-blurred.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._tip-arrow-left-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._tip-arrow-left.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._tumblr.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._twitter-follow-preview-background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._twitter-follow-preview.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._type-icon-sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._video-preview.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._vimeo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._watch-the-scan-ad.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._website-preview-background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._website-preview.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._wi-fi-preview-background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._wi-fi-preview.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._x-octagon-red.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._yelp.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._youtube.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\business-scan-page-preview.xcf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\icon\._drag-cursor.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qrCommon.iws" afterPath="$PROJECT_DIR$/qrCommon.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrCodeEntryPointController.java" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrCodeEntryPointController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/djstat/model/QrArtifact.java" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/model/QrArtifact.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/djstat/service/QRCodeServices.java" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/service/QRCodeServices.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/businessCard.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/businessCard.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-security.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-security.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/prepFinal.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/prepFinal.jsp" />
     </list>
     <ignored path="qrCommon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,74 +200,93 @@
       <file leaf-file-name="QrController2.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="43" selection-start="4156" selection-end="4171" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="63" column="17" selection-start="1929" selection-end="1929" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="businessCard.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/businessCard.jsp">
+      <file leaf-file-name="sample.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aws/samples/AmazonDynamoDB/sample.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="32" selection-start="212" selection-end="212" vertical-scroll-proportion="-2.6153846">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prepFinal.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AmazonDynamoDBSample.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aws/samples/AmazonDynamoDB/AmazonDynamoDBSample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="33" selection-start="0" selection-end="8056" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#8056#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AmazonDynamoDBSample.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/peev/samples/AmazonDynamoDBSample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="55" selection-start="1665" selection-end="1665" vertical-scroll-proportion="0.6390658">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3337#3356#0" expanded="true" />
+                <element signature="e#4793#4817#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prepFinal.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/prepFinal.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="28" selection-start="3352" selection-end="3352" vertical-scroll-proportion="1.0">
+            <state line="90" column="28" selection-start="3352" selection-end="3352" vertical-scroll-proportion="-19.23077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PreviewUpdate.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/form/PreviewUpdate.java">
+      <file leaf-file-name="list.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="5" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QrArtifact.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/model/QrArtifact.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="147" column="5" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Register.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/form/Register.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="46" selection-start="189" selection-end="213" vertical-scroll-proportion="0.0">
+            <state line="8" column="38" selection-start="297" selection-end="297" vertical-scroll-proportion="-5.230769">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QrData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/form/QrData.java">
+      <file leaf-file-name="applicationContext-security.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-security.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="204" selection-end="227" vertical-scroll-proportion="0.0">
+            <state line="43" column="42" selection-start="3126" selection-end="3126" vertical-scroll-proportion="-23.8">
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+            <state />
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap.css">
+      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3152" column="0" selection-start="56866" selection-end="56984" vertical-scroll-proportion="0.0">
+            <state line="63" column="60" selection-start="3058" selection-end="3058" vertical-scroll-proportion="-17.85">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="businessCardPreview.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/excludes/businessCardPreview.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="21" selection-start="488" selection-end="488" vertical-scroll-proportion="-6.5384617">
               <folding />
             </state>
           </provider>
@@ -159,22 +306,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/djstat/model/qr/QrCommonImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/djstat/model/qr/BusinessCard.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/page.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/page/businessCard.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-security.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/djstat/service/QRCodeServices.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/businessCard.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrCodeEntryPointController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/page/default.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/djstat/model/QrType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/djstat/model/QrArtifact.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/djstat/form/PreviewUpdate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/prepFinal.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/s/scan-page.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/s/footer.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/jquery.mobile-1.1.0-rc.1.min.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/excludes/contactCardPreview.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-security.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/excludes/businessCardPreview.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/peev/samples/AmazonDynamoDBSample.java" />
       </list>
     </option>
   </component>
@@ -404,11 +551,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="qr" />
+              <option name="myItemId" value="excludes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -452,58 +621,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resource Bundle 'messages'" />
-              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -560,7 +677,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="peek" />
+              <option name="myItemId" value="peev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="peev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="samples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -591,112 +742,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="djstat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="djstat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="djstat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="djstat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="form" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -734,6 +779,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aws" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aws" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aws" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AmazonDynamoDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -762,7 +861,7 @@
       <recent name="com.djstat.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GTest">
+  <component name="RunManager" selected="Application.AmazonDynamoDBSample">
     <configuration default="false" name="App" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
@@ -837,6 +936,28 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.djstat.model.qr.GTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="djStat.com" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AmazonDynamoDBSample" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.peev.samples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.peev.samples.AmazonDynamoDBSample" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -942,11 +1063,12 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.App" />
       <item index="1" class="java.lang.String" itemvalue="Application.TouchMongo" />
       <item index="2" class="java.lang.String" itemvalue="Application.BaseConverterUtil" />
       <item index="3" class="java.lang.String" itemvalue="Application.GTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.AmazonDynamoDBSample" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -1002,7 +1124,11 @@
       <created>1354308475683</created>
       <updated>1354308475683</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updated">
+      <created>1354569853227</created>
+      <updated>1354569853227</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1018,12 +1144,12 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24871135" sideWeight="0.7866109" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28033474" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24871135" sideWeight="0.7196653" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28033474" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21338913" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21338913" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UML Diagrams" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1138,113 +1264,115 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/controller/QrCodeEntryPointController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="22" selection-start="1217" selection-end="1217" vertical-scroll-proportion="0.44219652">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/model/qr/BusinessCard.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.mobile-1.1.0-rc.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="25" selection-start="197" selection-end="209" vertical-scroll-proportion="0.14837398">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/page/default.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="46" selection-start="310" selection-end="310" vertical-scroll-proportion="-7.8461537">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/page/b.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="358" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/service/QRCodeServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="56" selection-start="2841" selection-end="2841" vertical-scroll-proportion="0.0">
+        <state line="173" column="0" selection-start="91625" selection-end="91625" vertical-scroll-proportion="0.958498">
           <folding>
-            <element signature="e#1148#1178#0" expanded="true" />
-            <element signature="e#1723#1753#0" expanded="true" />
-            <element signature="e#3079#3109#0" expanded="true" />
-            <element signature="e#3538#3568#0" expanded="true" />
-            <element signature="e#5499#5529#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/myqrs/businessScanPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3152" column="0" selection-start="56866" selection-end="56984" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/form/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="46" selection-start="189" selection-end="213" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/form/QrData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="204" selection-end="227" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/model/QrArtifact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="5" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/qrgen-1.0.jar!/net/glxn/qrgen/QRCode.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="737" selection-end="737" vertical-scroll-proportion="0.65384614">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/form/PreviewUpdate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="5" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.0">
+        <state line="103" column="5" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.8107607">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="43" selection-start="4156" selection-end="4171" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="42" selection-start="3126" selection-end="3126" vertical-scroll-proportion="-23.8">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="60" selection-start="3058" selection-end="3058" vertical-scroll-proportion="-17.85">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/controller/QrCodeEntryPointController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="716" selection-end="716" vertical-scroll-proportion="0.33333334">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/excludes/businessCardPreview.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="21" selection-start="488" selection-end="488" vertical-scroll-proportion="-6.5384617">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="21" selection-start="998" selection-end="998" vertical-scroll-proportion="0.43079922">
+        <state line="8" column="38" selection-start="297" selection-end="297" vertical-scroll-proportion="-5.230769">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="17" selection-start="1929" selection-end="1929" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws/samples/AmazonDynamoDB/README.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.29375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws/samples/AmazonDynamoDB/sample.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aws/samples/AmazonDynamoDB/AmazonDynamoDBSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="33" selection-start="0" selection-end="8056" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#8056#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1255,10 +1383,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/prepFinal.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/AwsCredentials.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="28" selection-start="3352" selection-end="3352" vertical-scroll-proportion="1.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/peev/samples/AmazonDynamoDBSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="55" selection-start="1665" selection-end="1665" vertical-scroll-proportion="0.6390658">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3337#3356#0" expanded="true" />
+            <element signature="e#4793#4817#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
