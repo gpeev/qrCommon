@@ -2,144 +2,130 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae19ea33-e412-404b-8af7-a2fdeba14808" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/peev/samples/AmazonDynamoDBSample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/excludes/businessCardPreview.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/s/footer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/s/scan-page.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.mobile-1.1.0-rc.1.min.js" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._add-contact.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._android.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._angellist.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._appstore.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._background-grey.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._blue-button-iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._blue-button-qr-code-square.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._business-qr-code.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._business-scan-page-preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._button-background.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._button.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._calendar.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._close.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._colorpicker.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._colorpicker_overlay.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._colorpicker_select.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._create-yours-free-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._custom_background.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._custom_hex.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._custom_hsb_b.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._custom_hsb_h.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._custom_hsb_s.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._custom_indic.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._custom_rgb_b.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._custom_rgb_g.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._custom_rgb_r.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._custom_submit.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._dot-check-green.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._down-button.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._download-scan-android-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._download-scan-android.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._download-scan-app-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._download-scan-apple-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._download-scan-apple.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._download-scan-windows-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._download-scan-windows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._download-scan.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._download-the-app.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._dribbble.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._email.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._exclamation-dot-red.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._expand-subtract.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._facebook-check-in-preview-background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._facebook-check-in-preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._facebook-like-preview-background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._facebook-like-preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._feature-list.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._flickr.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._footer-social-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._foursquare-check-in-preview-background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._foursquare-check-in-preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._foursquare.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._github.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._google-plus.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._how-it-works.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._icon-analytics.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._icon-custom-applications.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._icon-hosted.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._icon-mobile-content.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._icon-more-coming.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._icon-resolution.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._icon-shortened-urls.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._icon-social-actions.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._icon-wi-fi.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._input-background.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._instagram.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._klout.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._linkedin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._loading-circle-bars-grey.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._lock-form.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._lock.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._logo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._network-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._next-page-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._page-navigator-active.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._page-navigator-background.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._page-navigator-dependency-locked.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._page-navigator-locked.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._page-navigator-unlocked.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._page-navigator-warning.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._personal-scan-page-preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._phone.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._pinterest.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._plus-dot-green.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._postage.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._preview-iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._qr-code-preview-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._question-mark-circle-blue.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._san-francisco.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._scan-for-businesses.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._scan-page-picture-default-portrait.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._scan-page-preview-background.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._scan-pages-by-scan.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._scan-team.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._scan-video.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._send-contact.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._sign-up.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._social-buttons-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._social-connections.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._social.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._socialbutton-checkmark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._soft-grain.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._text-preview-background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._text-preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._text.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._tip-arrow-left-blurred.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._tip-arrow-left-white.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._tip-arrow-left.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._tumblr.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._twitter-follow-preview-background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._twitter-follow-preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._type-icon-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._video-preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._vimeo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._watch-the-scan-ad.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._website-preview-background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._website-preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._wi-fi-preview-background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._wi-fi-preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._x-octagon-red.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._yelp.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\._youtube.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\business-scan-page-preview.xcf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\s\icon\._drag-cursor.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/s/mobile/backgrounds/linen-light.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/s/mobile/backgrounds/scan-grey.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/s/mobile/backgrounds/soft-grain.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/s/mobile/backgrounds/stripes.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/s/mobile/footer/download-free-scan-app.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/s/mobile/footer/sign-up-free.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/s/mobile/scan-page/reticle-bottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/s/mobile/scan-page/reticle-top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/s/mobile/textures/button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/s/mobile/textures/footer.png" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._226-1m1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._226mAgent.JPG" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._addthis_widget.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._ajaxupload.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._all.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._application.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._core036.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._ga.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._headerLogo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._menu123.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._oauth.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._sh101.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._style.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._vcard.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._viewstack.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._widget095.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._xd_arbiter.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._2005072910194722.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._2005090103540532.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._book_face_drugs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._book_gabriel_i.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._book_quinn_jerome.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._f.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._fCA.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._fDE.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._fFR.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._fGB.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._fIL.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._fIT.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._fNL.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._fSE.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._fSI.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._fUS.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._soundcloud_play2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._t.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(10).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(11).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(12).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(13).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(14).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(15).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(16).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(17).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(18).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(19).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(2).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(20).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(21).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(22).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(23).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(24).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(25).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(26).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(27).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(28).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(29).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(3).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(30).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(31).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(32).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(33).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(34).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(35).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(36).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(37).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(38).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(39).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(4).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(40).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(41).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(42).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(43).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(44).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(45).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(46).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(47).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(48).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(5).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(6).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(7).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(8).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(9).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._tiny(1).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._tiny(2).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._tiny(3).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._tiny(4).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._tiny(5).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._tiny(6).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._tiny(7).jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._tiny.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._tshirt_promo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._Class.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._CropSlider.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._Dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._Json.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._Scan.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._Scroll.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._ScrollableArea.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._Security.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._Slider.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._Utility.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._chartbeat.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._colorpicker.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._ga.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._jQuery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._jquery.address.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._main.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qrCommon.iws" afterPath="$PROJECT_DIR$/qrCommon.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-security.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-security.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp" />
     </list>
     <ignored path="qrCommon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -552,6 +538,292 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="excludes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scan-page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="footer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backgrounds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dashboard_files" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1128,12 +1400,16 @@
       <created>1354569853227</created>
       <updated>1354569853227</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updating">
+      <created>1354743750889</created>
+      <updated>1354743750889</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1608" height="864" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TCPMON" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1144,8 +1420,8 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24871135" sideWeight="0.7196653" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28033474" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24871135" sideWeight="0.7196653" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28033474" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1203,7 +1479,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1221,6 +1497,7 @@
     <MESSAGE value="fixing all and adding new qr support" />
     <MESSAGE value="rendering page support" />
     <MESSAGE value="updated" />
+    <MESSAGE value="updating" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
