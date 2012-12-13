@@ -3,6 +3,7 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 
+<title>List Page</title>
 
 <a href="/qr/deleteAll">Delete All</a>
 <br><br>
@@ -19,14 +20,16 @@
                 <a  href="#myModal${bCard.shortCode}" data-toggle="modal">
                     <img src="/qr/img/${bCard.shortCode}/100" alt=""/>
                 </a><br>
-                <a href="${directUrl}/${bCard.shortCode}" target="_blank">View</a>
+                <a href="${directUrl}/${bCard.shortCode}" target="_blank" >View</a>
             </div>
 
                 ${bCard}
             <br>
-            <a href="/qr/prepFinal/${bCard.shortCode}">Edit</a>
             <br>
-            <!-- Modal -->
+            <a href="/qr/prepFinal/${bCard.shortCode}">Edit</a> <br>
+            <a href="/qr/delete/${bCard.shortCode}">Delete</a>
+            <br>
+            <!-- Modal : Start -->
             <div id="myModal${bCard.shortCode}" class="modal hide fade" tabindex="-1" role="dialog"
                  aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-header">
@@ -34,7 +37,14 @@
                     <h3 id="myModalLabel">Modal header</h3>
                 </div>
                 <div class="modal-body">
+
+
                     <p>
+                    <iframe src="/${bCard.shortCode}" height="650" width="550" />
+                    <br>
+                    <br>
+                    <br>
+                    <br>
                         <strong>${bCard.firstName} ${bCard.lastName}</strong><br/>
                     <address>${bCard.address}</address>
                     <br/>
@@ -48,6 +58,9 @@
                     <button class="btn btn-primary">Save changes</button>
                 </div>
             </div>
+            <!-- Modal : End -->
+
+
         </div>
     </c:forEach>
 </c:if>

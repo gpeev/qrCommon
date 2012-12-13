@@ -8,4 +8,6 @@
     <decorator name="master" page="master.jsp">
         <pattern>/*</pattern>
     </decorator>
+
+    <decorator name="display" page="display.jsp" />
 </decorators>

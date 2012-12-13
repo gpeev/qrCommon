@@ -2,130 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae19ea33-e412-404b-8af7-a2fdeba14808" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/s/mobile/backgrounds/linen-light.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/s/mobile/backgrounds/scan-grey.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/s/mobile/backgrounds/soft-grain.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/s/mobile/backgrounds/stripes.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/s/mobile/footer/download-free-scan-app.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/s/mobile/footer/sign-up-free.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/s/mobile/scan-page/reticle-bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/s/mobile/scan-page/reticle-top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/s/mobile/textures/button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/s/mobile/textures/footer.png" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._226-1m1.JPG" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._226mAgent.JPG" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._addthis_widget.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._ajaxupload.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._all.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._application.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._core036.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._ga.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._headerLogo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._menu123.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._oauth.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._sh101.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._style.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._vcard.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._viewstack.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._widget095.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\dashboard_files\._xd_arbiter.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._2005072910194722.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._2005090103540532.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._book_face_drugs.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._book_gabriel_i.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._book_quinn_jerome.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._f.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._fCA.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._fDE.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._fFR.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._fGB.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._fIL.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._fIT.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._fNL.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._fSE.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._fSI.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._fUS.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._soundcloud_play2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._t.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(1).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(10).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(11).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(12).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(13).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(14).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(15).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(16).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(17).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(18).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(19).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(2).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(20).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(21).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(22).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(23).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(24).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(25).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(26).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(27).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(28).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(29).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(3).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(30).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(31).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(32).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(33).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(34).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(35).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(36).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(37).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(38).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(39).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(4).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(40).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(41).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(42).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(43).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(44).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(45).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(46).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(47).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(48).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(5).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(6).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(7).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(8).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb(9).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._tiny(1).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._tiny(2).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._tiny(3).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._tiny(4).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._tiny(5).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._tiny(6).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._tiny(7).jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._tiny.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\images\djs\._tshirt_promo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._Class.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._CropSlider.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._Dialog.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._Json.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._Scan.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._Scroll.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._ScrollableArea.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._Security.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._Slider.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._Utility.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._chartbeat.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._colorpicker.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._ga.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._jQuery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._jquery.address.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\js\s\._main.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/debug.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/decorators/display.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qrCommon.iws" afterPath="$PROJECT_DIR$/qrCommon.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/djstat/model/QrArtifact.java" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/model/QrArtifact.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/djstat/service/QRCodeServices.java" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/service/QRCodeServices.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/sitemesh.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/sitemesh.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/decorators/master.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/decorators/master.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/excludes/businessCardPreview.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/excludes/businessCardPreview.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/includes/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/includes/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp" />
     </list>
     <ignored path="qrCommon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -186,7 +74,7 @@
       <file leaf-file-name="QrController2.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="17" selection-start="1929" selection-end="1929" vertical-scroll-proportion="0.0">
+            <state line="73" column="108" selection-start="2285" selection-end="2285" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -194,85 +82,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sample.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aws/samples/AmazonDynamoDB/sample.properties">
+      <file leaf-file-name="QrArtifact.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/model/QrArtifact.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AmazonDynamoDBSample.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aws/samples/AmazonDynamoDB/AmazonDynamoDBSample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="33" selection-start="0" selection-end="8056" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#8056#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AmazonDynamoDBSample.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/peev/samples/AmazonDynamoDBSample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="55" selection-start="1665" selection-end="1665" vertical-scroll-proportion="0.6390658">
+            <state line="223" column="27" selection-start="2950" selection-end="2958" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3337#3356#0" expanded="true" />
-                <element signature="e#4793#4817#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prepFinal.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/prepFinal.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="28" selection-start="3352" selection-end="3352" vertical-scroll-proportion="-19.23077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.jsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="list.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="38" selection-start="297" selection-end="297" vertical-scroll-proportion="-5.230769">
+            <state line="40" column="38" selection-start="1620" selection-end="1620" vertical-scroll-proportion="0.6251969">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext-security.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-security.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="42" selection-start="3126" selection-end="3126" vertical-scroll-proportion="-23.8">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="60" selection-start="3058" selection-end="3058" vertical-scroll-proportion="-17.85">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="businessCardPreview.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/excludes/businessCardPreview.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="21" selection-start="488" selection-end="488" vertical-scroll-proportion="-6.5384617">
+            <state line="9" column="122" selection-start="449" selection-end="449" vertical-scroll-proportion="1.9615384">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="display.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/decorators/display.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="30" selection-start="504" selection-end="504" vertical-scroll-proportion="-7.1923075">
               <folding />
             </state>
           </provider>
@@ -292,22 +134,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/page/default.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/djstat/model/QrType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/djstat/model/QrArtifact.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/djstat/form/PreviewUpdate.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/prepFinal.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/s/scan-page.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/s/footer.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/jquery.mobile-1.1.0-rc.1.min.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/excludes/contactCardPreview.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-security.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/excludes/businessCardPreview.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/peev/samples/AmazonDynamoDBSample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/djstat/model/QrArtifact.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/djstat/service/QRCodeServices.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/debug.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/includes/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/decorators/master.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/decorators/publicDisplay.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/sitemesh.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/s/jquery.mobile-1.1.0-rc.1.min.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/decorators/display.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/excludes/businessCardPreview.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp" />
       </list>
     </option>
   </component>
@@ -503,7 +345,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="qr" />
+              <option name="myItemId" value="includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -563,7 +405,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="errors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="decorators" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -592,10 +476,6 @@
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -645,7 +525,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -668,440 +574,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scan-page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="footer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backgrounds" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard_files" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="peev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="samples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="djstat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="djstat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aws" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aws" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="samples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aws" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="samples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AmazonDynamoDB" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1119,6 +591,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -1404,12 +877,16 @@
       <created>1354743750889</created>
       <updated>1354743750889</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="updating">
+      <created>1354743922214</created>
+      <updated>1354743922214</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1608" height="864" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TCPMON" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1420,12 +897,12 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24871135" sideWeight="0.7196653" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28033474" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17332475" sideWeight="0.9567643" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10599721" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21338913" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.043235704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UML Diagrams" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1541,36 +1018,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.min.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.mobile-1.1.0-rc.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="0" selection-start="91625" selection-end="91625" vertical-scroll-proportion="0.958498">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/form/PreviewUpdate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="5" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.8107607">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="63" column="60" selection-start="3058" selection-end="3058" vertical-scroll-proportion="-17.85">
           <folding />
         </state>
       </provider>
@@ -1588,93 +1038,98 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/prepFinal.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="60" selection-start="3058" selection-end="3058" vertical-scroll-proportion="-17.85">
+        <state line="90" column="28" selection-start="3352" selection-end="3352" vertical-scroll-proportion="-19.23077">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/includes/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.086440675">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/controller/QrCodeEntryPointController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/model/QrArtifact.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="716" selection-end="716" vertical-scroll-proportion="0.33333334">
+        <state line="223" column="27" selection-start="2950" selection-end="2958" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="108" selection-start="2285" selection-end="2285" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/opensymphony/sitemesh/2.4.2/sitemesh-2.4.2.jar!/com/opensymphony/module/sitemesh/mapper/PageDecoratorMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.11764706">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/sitemesh.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="852" selection-end="852" vertical-scroll-proportion="0.57954544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="132" selection-start="309" selection-end="309" vertical-scroll-proportion="0.30357143">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/decorators/master.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="483" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/debug.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="99" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.76949155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/s/scan-page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="52" selection-start="5329" selection-end="5329" vertical-scroll-proportion="0.18941504">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/decorators/display.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="30" selection-start="504" selection-end="504" vertical-scroll-proportion="-7.1923075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/excludes/businessCardPreview.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="488" selection-end="488" vertical-scroll-proportion="-6.5384617">
+        <state line="9" column="122" selection-start="449" selection-end="449" vertical-scroll-proportion="1.9615384">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="38" selection-start="297" selection-end="297" vertical-scroll-proportion="-5.230769">
+        <state line="40" column="38" selection-start="1620" selection-end="1620" vertical-scroll-proportion="0.6251969">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="17" selection-start="1929" selection-end="1929" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws/samples/AmazonDynamoDB/README.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.29375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws/samples/AmazonDynamoDB/sample.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aws/samples/AmazonDynamoDB/AmazonDynamoDBSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="33" selection-start="0" selection-end="8056" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#8056#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/businessCard.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="32" selection-start="212" selection-end="212" vertical-scroll-proportion="-2.6153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/AwsCredentials.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/peev/samples/AmazonDynamoDBSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="55" selection-start="1665" selection-end="1665" vertical-scroll-proportion="0.6390658">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3337#3356#0" expanded="true" />
-            <element signature="e#4793#4817#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

@@ -135,6 +135,22 @@ public class QRCodeServices
 		}
 	}
 
+	public void delQrCode(String shortCode, String uname)
+	{
+		final Query query = entityManager.createQuery(
+				"SELECT u FROM com.djstat.model.QrArtifact u WHERE shortCode = :shortCode AND username=:username");
+		query.setParameter("shortCode", "" + shortCode);
+		query.setParameter("username", "" + uname);
+
+		@SuppressWarnings("unchecked")
+		final List results = query.getResultList();
+		System.out.println("deleting = " + results.size());
+
+		if (results != null && results.size() > 0)
+		{
+			entityManager.remove(results.get(0));
+		}
+	}
 
 	public long getNextCount()
 	{
@@ -256,4 +272,6 @@ public class QRCodeServices
 
 		return query.getResultList();
 	}
+
+
 }

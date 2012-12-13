@@ -8,6 +8,7 @@
 <!-- saved from url=(0060)http://nanotrader.springsource.com/index.html#trade/qAAPL/26 -->
 <html lang="en-GB" class="no-js"><!--<![endif]-->
 <head>
+    <title><decorator:title/></title>
     <%@ include file="/WEB-INF/view/includes/header.jsp" %>
     <%@ include file="/WEB-INF/view/includes/style.jsp" %>
     <%@ include file="/WEB-INF/view/includes/script.jsp" %>

@@ -56,8 +56,7 @@ public class QrController2
 		}
 
 
-
-
+		//todo - add caching
 		QrArtifact qr = qrServices.getQrCommon(shortCode);
 
 		if (qr != null)
@@ -76,12 +75,12 @@ public class QrController2
 					renderPage = "excludes/businessCardPreview";
 					break;
 			}
-			return "redirect:"+renderPage;
+			return "forward:"+renderPage;
 		}
-		//	req.getSession().setAttribute(shortCode, qr);
+//			req.getSession().setAttribute(shortCode, qr);
 //			System.out.println("Found the QR:" + qrCommon);
 //			model.addAttribute("businesscard", qrCommon);
-		//return "qr/page/b";
+//			return "qr/page/b";
 //			return "redirect:/qr/page/b/" + shortCode;
 
 		System.out.println("$$$$$$$$$$$$$$$$$$$$$$$$ Redirecting>>> " + req.getServletPath());
@@ -159,6 +158,17 @@ public class QrController2
 		model.addAttribute("directUrl", getUrl(req));
 		return "qr/prepFinal";
 	}
+
+
+	@RequestMapping(value = "/qr/delete/{shortCode}", method = RequestMethod.GET)
+	public final String delete(@PathVariable("shortCode") final String shortCode, final HttpServletRequest req)
+	{
+		String uname = req.getUserPrincipal().getName();
+		qrServices.delQrCode(shortCode,uname);
+
+		return "redirect:/qr/qrList";
+	}
+
 
 
 	///########################################################################################

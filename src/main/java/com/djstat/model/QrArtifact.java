@@ -219,6 +219,7 @@ public class QrArtifact
 	{
 		return "QrArtifact{" +
 				"id='" + id + '\'' +
+				", shortCode='" + shortCode + '\'' +
 				", qrText='" + qrText + '\'' +
 				", username='" + username + '\'' +
 				", type='" + type + '\'' +
