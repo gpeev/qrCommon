@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae19ea33-e412-404b-8af7-a2fdeba14808" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/debug.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/decorators/display.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qrCommon.iws" afterPath="$PROJECT_DIR$/qrCommon.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/djstat/model/QrArtifact.java" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/model/QrArtifact.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/djstat/service/QRCodeServices.java" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/service/QRCodeServices.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/sitemesh.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/sitemesh.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/decorators/master.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/decorators/master.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/excludes/businessCardPreview.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/excludes/businessCardPreview.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/includes/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/includes/header.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp" />
     </list>
     <ignored path="qrCommon.iws" />
@@ -96,7 +86,7 @@
       <file leaf-file-name="list.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="38" selection-start="1620" selection-end="1620" vertical-scroll-proportion="0.6251969">
+            <state line="33" column="84" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.43779528">
               <folding />
             </state>
           </provider>
@@ -881,7 +871,11 @@
       <created>1354743922214</created>
       <updated>1354743922214</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="updating">
+      <created>1355435376074</created>
+      <updated>1355435376074</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1128,7 +1122,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="38" selection-start="1620" selection-end="1620" vertical-scroll-proportion="0.6251969">
+        <state line="33" column="84" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.43779528">
           <folding />
         </state>
       </provider>

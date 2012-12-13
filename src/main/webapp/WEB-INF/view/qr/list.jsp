@@ -31,7 +31,7 @@
             <br>
             <!-- Modal : Start -->
             <div id="myModal${bCard.shortCode}" class="modal hide fade" tabindex="-1" role="dialog"
-                 aria-labelledby="myModalLabel" aria-hidden="true">
+                 aria-labelledby="myModalLabel" aria-hidden="true" style="width: 600">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
                     <h3 id="myModalLabel">Modal header</h3>
@@ -40,7 +40,9 @@
 
 
                     <p>
-                    <iframe src="/${bCard.shortCode}" height="650" width="550" />
+                    <iframe src="/${bCard.shortCode}" height="650" width="550">
+                    </iframe>
+
                     <br>
                     <br>
                     <br>
