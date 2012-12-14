@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae19ea33-e412-404b-8af7-a2fdeba14808" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/input.tag" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/submitBtns.tag" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qrCommon.iws" afterPath="$PROJECT_DIR$/qrCommon.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/djstat/service/QRCodeServices.java" afterPath="$PROJECT_DIR$/src/main/java/com/djstat/service/QRCodeServices.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/excludes/businessCardPreview.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/excludes/businessCardPreview.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/prepFinal.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/prepFinal.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/s/scan-page.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/s/scan-page.css" />
     </list>
     <ignored path="qrCommon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,10 +71,64 @@
       <file leaf-file-name="QrController2.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="108" selection-start="2285" selection-end="2285" vertical-scroll-proportion="0.0">
+            <state line="152" column="41" selection-start="4923" selection-end="4923" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QrData.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/form/QrData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="13" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PreviewUpdate.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/form/PreviewUpdate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="148" selection-end="336" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prepFinal.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/prepFinal.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="44" selection-start="1580" selection-end="1580" vertical-scroll-proportion="0.12762763">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="submitBtns.tag" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/submitBtns.tag">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="28" selection-start="842" selection-end="842" vertical-scroll-proportion="-13.730769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input.tag" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/input.tag">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="0" selection-start="0" selection-end="1457" vertical-scroll-proportion="-16.461538">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="businessCard.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/businessCard.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="41" selection-start="1175" selection-end="1175" vertical-scroll-proportion="-17.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,29 +144,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="list.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="84" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.43779528">
+            <state line="16" column="114" selection-start="547" selection-end="547" vertical-scroll-proportion="-4.0384617">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="businessCardPreview.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/excludes/businessCardPreview.jsp">
+      <file leaf-file-name="QRCodeServices.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/service/QRCodeServices.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="122" selection-start="449" selection-end="449" vertical-scroll-proportion="1.9615384">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="display.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/decorators/display.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="30" selection-start="504" selection-end="504" vertical-scroll-proportion="-7.1923075">
-              <folding />
+            <state line="136" column="31" selection-start="3389" selection-end="3389" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1148#1178#0" expanded="true" />
+                <element signature="e#1723#1753#0" expanded="true" />
+                <element signature="e#3409#3439#0" expanded="true" />
+                <element signature="e#4064#4094#0" expanded="true" />
+                <element signature="e#4436#4466#0" expanded="true" />
+                <element signature="e#6384#6414#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,13 +183,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-security.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/peev/samples/AmazonDynamoDBSample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/djstat/model/QrArtifact.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/djstat/service/QRCodeServices.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/debug.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/includes/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/decorators/master.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/decorators/publicDisplay.jsp" />
@@ -138,8 +191,14 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/sitemesh.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/s/jquery.mobile-1.1.0-rc.1.min.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/decorators/display.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/s/scan-page.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/excludes/businessCardPreview.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/input.tag" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/submitBtns.tag" />
+        <option value="$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/djstat/service/QRCodeServices.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/prepFinal.jsp" />
       </list>
     </option>
   </component>
@@ -331,11 +390,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
+              <option name="myItemId" value="tags" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qrCommon" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -357,19 +430,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="excludes" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -391,19 +452,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="errors" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -425,19 +478,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="decorators" />
+              <option name="myItemId" value="djstat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -459,37 +508,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="djstat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="form" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -511,59 +542,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="djstat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="form" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrCommon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="qr" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -592,6 +587,10 @@
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\peevg\Desktop\GitHub\qrCommon\src\main\webapp\WEB-INF\view" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.djstat.controller" />
     </key>
@@ -875,7 +874,11 @@
       <created>1355435376074</created>
       <updated>1355435376074</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="updating">
+      <created>1355435681207</created>
+      <updated>1355435681207</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -891,12 +894,12 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17332475" sideWeight="0.9567643" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19523196" sideWeight="0.9567643" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10599721" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.043235704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.043235704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UML Diagrams" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1012,72 +1015,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="60" selection-start="3058" selection-end="3058" vertical-scroll-proportion="-17.85">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="42" selection-start="3126" selection-end="3126" vertical-scroll-proportion="-23.8">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/prepFinal.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="28" selection-start="3352" selection-end="3352" vertical-scroll-proportion="-19.23077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/includes/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.086440675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/model/QrArtifact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="223" column="27" selection-start="2950" selection-end="2958" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="108" selection-start="2285" selection-end="2285" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/opensymphony/sitemesh/2.4.2/sitemesh-2.4.2.jar!/com/opensymphony/module/sitemesh/mapper/PageDecoratorMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.11764706">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/sitemesh.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="852" selection-end="852" vertical-scroll-proportion="0.57954544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="132" selection-start="309" selection-end="309" vertical-scroll-proportion="0.30357143">
@@ -1099,30 +1036,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/s/scan-page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="52" selection-start="5329" selection-end="5329" vertical-scroll-proportion="0.18941504">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/decorators/display.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="30" selection-start="504" selection-end="504" vertical-scroll-proportion="-7.1923075">
+        <state line="11" column="30" selection-start="504" selection-end="504" vertical-scroll-proportion="0.2944882">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/excludes/businessCardPreview.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="122" selection-start="449" selection-end="449" vertical-scroll-proportion="1.9615384">
+        <state line="27" column="78" selection-start="1316" selection-end="1316" vertical-scroll-proportion="-1.9019607">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/s/scan-page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="365" column="33" selection-start="9918" selection-end="9918" vertical-scroll-proportion="-21.76">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="84" selection-start="1361" selection-end="1361" vertical-scroll-proportion="0.43779528">
+        <state line="16" column="114" selection-start="547" selection-end="547" vertical-scroll-proportion="-4.0384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/model/QrArtifact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="223" column="27" selection-start="2950" selection-end="2958" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/input.tag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="0" selection-end="1457" vertical-scroll-proportion="-16.461538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/businessCard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="41" selection-start="1175" selection-end="1175" vertical-scroll-proportion="-17.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/submitBtns.tag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="28" selection-start="842" selection-end="842" vertical-scroll-proportion="-13.730769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/form/QrData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/form/PreviewUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="148" selection-end="336" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/controller/QrController2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="41" selection-start="4923" selection-end="4923" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/djstat/service/QRCodeServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="31" selection-start="3389" selection-end="3389" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1148#1178#0" expanded="true" />
+            <element signature="e#1723#1753#0" expanded="true" />
+            <element signature="e#3409#3439#0" expanded="true" />
+            <element signature="e#4064#4094#0" expanded="true" />
+            <element signature="e#4436#4466#0" expanded="true" />
+            <element signature="e#6384#6414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/qr/prepFinal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="44" selection-start="1580" selection-end="1580" vertical-scroll-proportion="0.12762763">
           <folding />
         </state>
       </provider>

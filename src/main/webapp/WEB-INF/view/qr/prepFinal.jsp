@@ -2,59 +2,40 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib tagdir="/WEB-INF/tags" prefix="tag" %>
 
 
 <div class="container-fluid">
     <div class="row-fluid">
         <div class="span4">
             <!-- Controls -->
-            <form class="form-horizontal">
-                <div class="control-group">
-                    <label class="control-label" for="inputEmail">Title</label>
+            <form:form modelAttribute="preUpdate" action="/qr/prepFinal/submit" method="post">
+                <fieldset>
+                    <legend><spring:message code="qr.businesscard.legend" /></legend>
 
-                    <div class="controls">
-                        <input type="text" id="inputEmail" placeholder="Title">
-                    </div>
-                </div>
-                <div class="control-group">
-                    <label class="control-label" for="inputHeader">Header</label>
+                    <tag:input path="title" type="text" readOnly="${false}" placeholder="Unique name" label="Title" />
+                    <tag:input path="header" type="text" readOnly="${false}" placeholder="Top part" label="Header" />
+                    <tag:input path="footer" type="text" readOnly="${false}" placeholder="Bottom part" label="Footer" />
+                    <tag:input path="border" type="text" readOnly="${false}" placeholder="1px black solid" label="Border" />
+                    <tag:input path="badge" type="text" readOnly="${false}" placeholder="Unique name" label="Badge" />
+                    <tag:input path="url" type="text" readOnly="${false}" placeholder="Unique name" label="URL" />
+                    <tag:input path="color" type="text" readOnly="${false}" placeholder="Unique name" label="Color" />
 
-                    <div class="controls">
-                        <input type="password" id="inputHeader" placeholder="Header">
-                    </div>
-                </div>
-                <div class="control-group">
-                    <label class="control-label" for="inputFooter">Footer</label>
+                    <form:input type="hidden" path="shortCode"/>
 
-                    <div class="controls">
-                        <input type="password" id="inputFooter" placeholder="Footer">
-                    </div>
-                </div>
-                <div class="control-group">
-                    <div class="span3">
-                        <input type="checkbox" id="checkBorder"/> Border
-                    </div>
-                    <div class="span3">
-                        <input type="checkbox" id="checkBadge"/> Badge
-                    </div>
-                    <div class="span3">
-                        <input type="checkbox" id="checkUrl"/> URL
-                    </div>
-                </div>
 
-                <div class="control-group">
-                    <label class="control-label" for="inputColor">Color</label>
-                    <input type="text" id="inputColor" class="span2"/>
 
-                </div>
 
-                <div class="control-group">
-                    <div class="controls">
-                        <button type="button" class="btn">Back</button>
-                        <button type="button" class="btn btn-success">Save</button>
-                    </div>
-                </div>
-            </form>
+                    <tag:submitBtns active="false" />
+
+
+                </fieldset>
+            </form:form>
+
+
+
+
 
         </div>
         <div class="span4">
@@ -86,12 +67,3 @@
     </div>
 </div>
 
-
-fName:<c:out value="${qrdata.firstName}"/><br>
-lName:<c:out value="${qrdata.lastName}"/><br>
-
-fffffffffffffffffffff
-this is prep final
-
-
-this page changes the boarder, header, footer color of final qr frame and surrounding data.

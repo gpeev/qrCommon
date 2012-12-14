@@ -57,6 +57,7 @@ public class QrController2
 
 
 		//todo - add caching
+		//String uname = req.getUserPrincipal().getName();
 		QrArtifact qr = qrServices.getQrCommon(shortCode);
 
 		if (qr != null)
@@ -147,16 +148,33 @@ public class QrController2
 	@RequestMapping(value = "/qr/prepFinal/{shortCode}", method = RequestMethod.GET)
 	public final String renderGet(@PathVariable("shortCode") final String shortCode, final ModelMap model, final HttpServletRequest req)
 	{
-		QrArtifact qr = qrServices.getQrCommon(shortCode);
-		//todo - put qr into PreviewUpdate
-
+		String uname = req.getUserPrincipal().getName();
+		System.out.println("\n\n>>>>>>>>>>>>>>>>>>>>>>>>:"+uname+"\n\n");
+		QrArtifact qr = qrServices.getQrCommon(shortCode,uname);
 		PreviewUpdate up = new PreviewUpdate(qr);
 
 
-		model.addAttribute("qrdata", qr);
+		//model.addAttribute("qrdata", qr);
 		model.addAttribute("preUpdate", up);
 		model.addAttribute("directUrl", getUrl(req));
 		return "qr/prepFinal";
+	}
+
+	@RequestMapping(value = "/qr/prepFinal/submit", method = RequestMethod.POST)
+	public final String prepUpdate(@ModelAttribute("preUpdate") @Valid final PreviewUpdate pre, final BindingResult binding, final HttpServletRequest req)
+	{
+		String uname = req.getUserPrincipal().getName();
+		QrArtifact qr = qrServices.getQrCommon(pre.getShortCode(),uname);
+		qr.setTitle(pre.getTitle());
+		qr.setHeader(pre.getHeader());
+		qr.setFooter(pre.getFooter());
+		qr.setBorder(pre.getBorder());
+		qr.setBadge(pre.getBadge());
+		qr.setUrl(pre.getUrl());
+		qr.setColor(pre.getColor());
+
+		qrServices.createBusinessCard(qr);
+		return "redirect:/qr/prepFinal/" + qr.getShortCode();
 	}
 
 
@@ -186,7 +204,8 @@ public class QrController2
 			"shortCode") final String shortCode, final ModelMap model, final HttpServletRequest req)
 	{
 
-		QrArtifact qr = qrServices.getQrCommon(shortCode.substring(1));
+		String uname = req.getUserPrincipal().getName();
+		QrArtifact qr = qrServices.getQrCommon(shortCode.substring(1),uname);
 		model.addAttribute(QRDATA, qr);
 
 		// todo - pull this out and make general since it will be required in most renderings
@@ -215,7 +234,8 @@ public class QrController2
 			"shortCode") final String shortCode, final ModelMap model, final HttpServletRequest req,
 			final HttpServletResponse res)
 	{
-		QrArtifact bc = qrServices.getQrCommon(shortCode);
+		String uname = req.getUserPrincipal().getName();
+		QrArtifact bc = qrServices.getQrCommon(shortCode,uname);
 		//model.addAttribute(QRDATA, bc);
 		//model.addAttribute("directUrl", getUrl(req));
 		PrintWriter out = null;

@@ -21,17 +21,12 @@
     <script src="/js/jquery.min.js"></script>
     <script src="/js/jquery.mobile-1.1.0-rc.1.min.js"></script>
 
-    <style type="text/css">
-    </style>
-
-    <style type="text/css"></style>
 </head>
 <body class="softGrain ui-mobile-viewport" style="">
 
-<div data-role="page" data-theme="x" id="home" data-url="home" tabindex="0" class="ui-page ui-body-x ui-page-active"
-     style="min-height: 578px;">
-    <div data-role="content" class="ui-content" role="main">
-        <div class="reticle top"></div>
+<div data-role="page" data-theme="x" id="home" data-url="home" tabindex="0" class="ui-page ui-body-x ui-page-active" style="border: 1px #000000 solid; ">
+    <div data-role="content" class="ui-content" role="main"   style="border: 0px #000000 solid; width: 350px; min-height: 410px">
+        <!--div class="reticle top" style="border: 1px #000000 solid;"></div-->
         <div class="scanPageWrapper">
             <div class="scanPageContainer">
                 <div class="profileImage"
@@ -95,27 +90,27 @@
                 </div>
             </div>
         </div>
-        <div class="reticle bottom"></div>
+        <!--div class="reticle bottom"></div-->
 
     </div>
 
-    <div data-role="footer" class="footer scan ui-footer ui-bar-a" style="position: fixed; bottom: 0; width: 100%;"
+    <!--div data-role="footer" class="footer scan ui-footer ui-bar-a" style="position: fixed; bottom: 0; width: 100%;"
          role="contentinfo">
         <div class="ui-grid-b" style="height: 32px; line-height: 32px;">
             <div class="ui-block-a" style="text-align: left;"><a rel="external" href="http://scan.me/"
                                                                  class="createYourFreeProfile ui-link">Create Your Free
                 Profile</a></div>
-            <div class="ui-block-b" style="text-align: center;">Scan</div>
+            <div class="ui-block-b" style="text-align: center;">PEEK</div>
             <div class="ui-block-c" style="text-align: right;"><a rel="external"
                                                                   href="http://scan.me/apps/scan/download/"
                                                                   class="downloadFreeScanApp ui-link">Download Free Scan
                 App</a></div>
         </div>
-    </div>
+    </div-->
 </div>
 
 
-<div data-role="page" data-theme="x" id="sendContact" data-url="sendContact">
+<!--div data-role="page" data-theme="x" id="sendContact" data-url="sendContact">
     <div data-role="content">
         <h2 style="margin-top: 0; margin-bottom: .25em;">Coming Soon!</h2>
 
@@ -137,7 +132,7 @@
             </div>
         </div>
     </div>
-</div>
+</div-->
 
 
 <div data-role="page" data-theme="x" id="addContact" data-url="addContact">
@@ -165,9 +160,11 @@
     </div>
     <div data-role="footer" class="footer scan" style="position: fixed; bottom: 0; width: 100%;">
         <div class="ui-grid-b" style="height: 32px; line-height: 32px;">
-            <div class="ui-block-a" style="text-align: left;"><a rel="external" href="http://scan.me/"
-                                                                 class="createYourFreeProfile">Create Your Free
-                Profile</a></div>
+            <div class="ui-block-a" style="text-align: left;">
+                <a rel="external" href="http://scan.me/" class="createYourFreeProfile">
+                    Create Your Free Profile
+                </a>
+            </div>
             <div class="ui-block-b" style="text-align: center;">Scan</div>
             <div class="ui-block-c" style="text-align: right;"><a rel="external"
                                                                   href="http://scan.me/apps/scan/download/"

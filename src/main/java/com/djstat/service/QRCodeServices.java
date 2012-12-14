@@ -114,11 +114,27 @@ public class QRCodeServices
 		return shortCode;
 	}
 
+	public void updateQrArtifact(QrArtifact qr)
+	{
+		entityManager.persist(qr);
+	}
+
 	public QrArtifact getQrCommon(String shortCode)
 	{
-		final Query query = entityManager.createQuery(
-				"SELECT u FROM com.djstat.model.QrArtifact u WHERE shortCode = :shortCode");
+		return getQrCommon(shortCode, null);
+	}
+
+	public QrArtifact getQrCommon(String shortCode, String uname)
+	{
+		String sql = "SELECT u FROM com.djstat.model.QrArtifact u WHERE shortCode = :shortCode";
+		if (uname != null)
+		{ sql += " and username = :uname"; }
+
+		final Query query = entityManager.createQuery(sql);
+
 		query.setParameter("shortCode", "" + shortCode);
+		if (uname != null)
+		{ query.setParameter("uname", uname); }
 
 		@SuppressWarnings("unchecked")
 		final List results = query.getResultList();
@@ -130,7 +146,7 @@ public class QRCodeServices
 		}
 		else
 		{
-			System.out.println("Could not find shortCode: " + shortCode);
+			System.out.println("Could not find shortCode: " + shortCode + " for username: " + uname);
 			return null;
 		}
 	}
@@ -221,19 +237,6 @@ public class QRCodeServices
 		return qr.getId();
 	}
 	*/
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 	// Deprecating. --------------------------------------------------------------------

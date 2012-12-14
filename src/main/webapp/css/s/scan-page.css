@@ -343,15 +343,15 @@ label {
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         border: 15px solid #EAEBEC;
-        margin: 55px auto 0;
+        /*margin: 55px auto 0;*/
         border-radius: 25px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.66);
         position: relative;
         z-index: 99;
-        -webkit-animation: slide-left-bounce .65s both;
+       /* -webkit-animation: slide-left-bounce .65s both;
         -moz-animation: slide-left-bounce .65s both;
         -o-animation: slide-left-bounce .65s both;
-        animation: slide-left-bounce .65s both;
+        animation: slide-left-bounce .65s both;*/
     }
 
     .scanPageContainer {
